@@ -1,0 +1,125 @@
+{
+  "nav": {
+    "home": "Home",
+    "tours": "Tours",
+    "about": "About",
+    "gallery": "Gallery",
+    "testimonials": "Reviews",
+    "contact": "Contact",
+    "reserve": "Book Now"
+  },
+  "hero": {
+    "tagline": "Tlemcen, as only a local can tell it.",
+    "cta_discover": "Discover Tours",
+    "cta_reserve": "Book Now"
+  },
+  "home": {
+    "intro_title": "A different way to see Tlemcen",
+    "intro_text": "With Hamza, every tour is a story. Drawing on a background in linguistics and seven years traversing Algeria's historic sites, he turns every monument into living history.",
+    "categories_title": "What we explore",
+    "cat_historical": "Historical Sites",
+    "cat_historical_desc": "From Zianid palaces to the ruins of Mansourah",
+    "cat_nature": "Nature & Landscapes",
+    "cat_nature_desc": "Plateaus, gorges, waterfalls and caves",
+    "cat_cultural": "Cultural Life",
+    "cat_cultural_desc": "Medina, souks, craftsmen and traditions",
+    "cat_photo": "Photography",
+    "cat_photo_desc": "The best spots and the perfect light",
+    "stats_years": "Years of experience",
+    "stats_guests": "Guests guided",
+    "stats_languages": "Languages spoken",
+    "stats_sites": "Iconic sites",
+    "featured_title": "Featured tours",
+    "featured_subtitle": "Every circuit is designed to give you an authentic, unforgettable experience.",
+    "testimonials_title": "What our guests say",
+    "cta_title": "Ready to discover Tlemcen?",
+    "cta_text": "Book your guided tour today and let Hamza tell you the story of his city.",
+    "cta_button": "Book My Tour"
+  },
+  "tours": {
+    "page_title": "Our Tours",
+    "page_subtitle": "Five unique ways to discover Tlemcen — choose your story.",
+    "duration_label": "Duration",
+    "difficulty_label": "Level",
+    "included_label": "Included",
+    "not_included_label": "Not included",
+    "price_label": "Price",
+    "price_value": "Contact for pricing",
+    "reserve_button": "Book This Tour",
+    "languages_label": "Available in",
+    "all_tours_cta": "Book a Tour"
+  },
+  "about": {
+    "page_title": "About Hamza",
+    "section_story": "My story",
+    "section_perspective": "A local perspective",
+    "section_beyond": "Beyond the map",
+    "quote": "When you leave, you don't just have photos; you have a genuine understanding of what makes this corner of the world so extraordinary.",
+    "years": "7 years",
+    "years_label": "of experience",
+    "languages_label": "Languages",
+    "languages_value": "Arabic · French · English",
+    "badge_label": "Licensed guide",
+    "cta_label": "Book with Hamza"
+  },
+  "gallery": {
+    "page_title": "Gallery",
+    "page_subtitle": "Images that tell what words cannot.",
+    "filter_all": "All",
+    "filter_historical": "Historical sites",
+    "filter_nature": "Nature",
+    "filter_cultural": "Cultural life",
+    "filter_panoramas": "Panoramas"
+  },
+  "testimonials": {
+    "page_title": "Guest Reviews",
+    "page_subtitle": "Real experiences, told by those who lived them.",
+    "cta_title": "Join our guests",
+    "cta_button": "Book My Tour"
+  },
+  "contact": {
+    "page_title": "Contact",
+    "page_subtitle": "Have questions? I'd love to hear from you.",
+    "form_name": "Name",
+    "form_email": "Email",
+    "form_lang": "Preferred language",
+    "form_message": "Message",
+    "form_submit": "Send",
+    "form_success": "Message sent! I'll reply within 24 hours.",
+    "whatsapp_label": "WhatsApp",
+    "email_label": "Email",
+    "faq_title": "Frequently asked questions",
+    "faqs": [
+      {
+        "q": "What languages do you guide in?",
+        "a": "I guide in Arabic, French, and English. Choose your preferred language when booking."
+      },
+      {
+        "q": "How far in advance should I book?",
+        "a": "I recommend booking at least 48 hours ahead, but feel free to contact me at the last minute — I'll do my best."
+      },
+      {
+        "q": "Do you offer private tours?",
+        "a": "Yes, all my tours can be done privately for families, couples, or small groups. Perfect for a personalized experience."
+      },
+      {
+        "q": "What should I bring?",
+        "a": "Comfortable shoes, a water bottle, a hat in summer, and your curiosity. For religious sites, plan on modest clothing."
+      },
+      {
+        "q": "Are tours suitable for children or elderly guests?",
+        "a": "Absolutely. I adapt the pace and route to the group. Just let me know when booking."
+      },
+      {
+        "q": "What is your cancellation policy?",
+        "a": "Free cancellation up to 24 hours before the tour. After that, 50% of the amount is retained."
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Tlemcen, Algeria",
+    "copyright": "© 2025 Hamza — Licensed Tour Guide",
+    "links_title": "Navigation",
+    "social_title": "Follow us"
+  }
+}

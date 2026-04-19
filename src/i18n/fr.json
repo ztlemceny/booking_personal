@@ -1,0 +1,125 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "tours": "Visites",
+    "about": "À propos",
+    "gallery": "Galerie",
+    "testimonials": "Avis",
+    "contact": "Contact",
+    "reserve": "Réserver maintenant"
+  },
+  "hero": {
+    "tagline": "Tlemcen, comme seul un local sait la raconter.",
+    "cta_discover": "Découvrir les visites",
+    "cta_reserve": "Réserver"
+  },
+  "home": {
+    "intro_title": "Une autre façon de voir Tlemcen",
+    "intro_text": "Avec Hamza, chaque visite est un récit. Fort d'une formation en linguistique et de sept ans passés à parcourir les sites historiques d'Algérie, il transforme chaque monument en une histoire vivante.",
+    "categories_title": "Ce que nous explorons",
+    "cat_historical": "Sites Historiques",
+    "cat_historical_desc": "Des palais zianides aux ruines de Mansourah",
+    "cat_nature": "Nature & Paysages",
+    "cat_nature_desc": "Plateaux, gorges, cascades et grottes",
+    "cat_cultural": "Vie Culturelle",
+    "cat_cultural_desc": "Médina, souks, artisans et traditions",
+    "cat_photo": "Photographie",
+    "cat_photo_desc": "Les meilleurs spots et la lumière parfaite",
+    "stats_years": "Ans d'expérience",
+    "stats_guests": "Voyageurs guidés",
+    "stats_languages": "Langues parlées",
+    "stats_sites": "Sites emblématiques",
+    "featured_title": "Nos visites phares",
+    "featured_subtitle": "Chaque circuit est conçu pour vous offrir une expérience authentique et inoubliable.",
+    "testimonials_title": "Ce que disent nos voyageurs",
+    "cta_title": "Prêt à découvrir Tlemcen ?",
+    "cta_text": "Réservez votre visite guidée dès aujourd'hui et laissez Hamza vous raconter sa ville.",
+    "cta_button": "Réserver ma visite"
+  },
+  "tours": {
+    "page_title": "Nos Visites",
+    "page_subtitle": "Cinq façons uniques de découvrir Tlemcen — choisissez votre récit.",
+    "duration_label": "Durée",
+    "difficulty_label": "Niveau",
+    "included_label": "Inclus",
+    "not_included_label": "Non inclus",
+    "price_label": "Tarif",
+    "price_value": "Sur demande",
+    "reserve_button": "Réserver cette visite",
+    "languages_label": "Disponible en",
+    "all_tours_cta": "Réserver une visite"
+  },
+  "about": {
+    "page_title": "À propos de Hamza",
+    "section_story": "Mon histoire",
+    "section_perspective": "Une perspective locale",
+    "section_beyond": "Au-delà de la carte",
+    "quote": "Quand vous repartez, vous n'avez pas seulement des photos ; vous avez une compréhension authentique de ce qui rend ce coin du monde si extraordinaire.",
+    "years": "7 ans",
+    "years_label": "d'expérience",
+    "languages_label": "Langues",
+    "languages_value": "Arabe · Français · Anglais",
+    "badge_label": "Guide agréé",
+    "cta_label": "Réserver avec Hamza"
+  },
+  "gallery": {
+    "page_title": "Galerie",
+    "page_subtitle": "Des images qui racontent ce que les mots ne peuvent pas dire.",
+    "filter_all": "Tout",
+    "filter_historical": "Sites historiques",
+    "filter_nature": "Nature",
+    "filter_cultural": "Vie culturelle",
+    "filter_panoramas": "Panoramas"
+  },
+  "testimonials": {
+    "page_title": "Avis de voyageurs",
+    "page_subtitle": "Des expériences vécues, racontées par ceux qui les ont partagées.",
+    "cta_title": "Rejoignez nos voyageurs",
+    "cta_button": "Réserver ma visite"
+  },
+  "contact": {
+    "page_title": "Contact",
+    "page_subtitle": "Des questions ? Je serais ravi de vous répondre.",
+    "form_name": "Nom",
+    "form_email": "Email",
+    "form_lang": "Langue préférée",
+    "form_message": "Message",
+    "form_submit": "Envoyer",
+    "form_success": "Message envoyé ! Je vous répondrai dans les 24h.",
+    "whatsapp_label": "WhatsApp",
+    "email_label": "Email",
+    "faq_title": "Questions fréquentes",
+    "faqs": [
+      {
+        "q": "Dans quelles langues guidez-vous ?",
+        "a": "Je guide en arabe, français et anglais. Choisissez votre langue préférée lors de la réservation."
+      },
+      {
+        "q": "Combien de temps à l'avance faut-il réserver ?",
+        "a": "Je recommande de réserver au moins 48h à l'avance, mais contactez-moi même au dernier moment — je ferai mon possible."
+      },
+      {
+        "q": "Proposez-vous des visites privées ?",
+        "a": "Oui, toutes mes visites peuvent être effectuées en privé pour les familles, couples ou petits groupes. Idéal pour une expérience personnalisée."
+      },
+      {
+        "q": "Que faut-il apporter ?",
+        "a": "Des chaussures confortables, une bouteille d'eau, un chapeau en été, et votre curiosité. Pour les sites religieux, prévoyez une tenue couverte."
+      },
+      {
+        "q": "Les visites conviennent-elles aux enfants ou personnes âgées ?",
+        "a": "Absolument. Je adapte le rythme et le parcours en fonction du groupe. Il suffit de me le signaler lors de la réservation."
+      },
+      {
+        "q": "Quelle est votre politique d'annulation ?",
+        "a": "Annulation gratuite jusqu'à 24h avant la visite. Passé ce délai, 50% du montant est retenu."
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Tlemcen, Algérie",
+    "copyright": "© 2025 Hamza — Guide touristique agréé",
+    "links_title": "Navigation",
+    "social_title": "Suivez-nous"
+  }
+}

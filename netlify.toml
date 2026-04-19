@@ -1,0 +1,23 @@
+[build]
+  command   = "npm run build"
+  publish   = "dist"
+
+[[redirects]]
+  from   = "/"
+  to     = "/fr/"
+  status = 302
+
+[[redirects]]
+  from   = "/fr"
+  to     = "/fr/"
+  status = 301
+
+[[redirects]]
+  from   = "/en"
+  to     = "/en/"
+  status = 301
+
+[[redirects]]
+  from   = "/ar"
+  to     = "/ar/"
+  status = 301

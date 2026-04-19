@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "name": "Marie-Claire Fontaine",
+    "country": { "fr": "France", "en": "France", "ar": "فرنسا" },
+    "tour_slug": "historical-circuit",
+    "rating": 5,
+    "text": {
+      "fr": "Hamza a une façon unique de faire vivre l'histoire. Quand il décrit les batailles des Zianides devant les ruines de Mansourah, on s'y croit vraiment. Une journée inoubliable qui m'a donné envie de revenir.",
+      "en": "Hamza has a unique way of bringing history to life. When he describes the Zianid battles before the Mansourah ruins, you truly feel transported. An unforgettable day that made me want to come back.",
+      "ar": "لدى حمزة طريقة فريدة في إحياء التاريخ. حين يصف معارك الزيانيين أمام أطلال منصورة، تشعر وكأنك هناك فعلًا. يوم لا يُنسى جعلني أتوق للعودة."
+    },
+    "featured": true
+  },
+  {
+    "id": 2,
+    "name": "James Thornton",
+    "country": { "fr": "Royaume-Uni", "en": "United Kingdom", "ar": "المملكة المتحدة" },
+    "tour_slug": "panoramas",
+    "rating": 5,
+    "text": {
+      "fr": "La montée à Lalla Setti avec Hamza est bien plus qu'une simple balade. Il connaît chaque détail du paysage, chaque anecdote sur la ville vue d'en haut. Un guide exceptionnel pour une vue exceptionnelle.",
+      "en": "Climbing to Lalla Setti with Hamza is far more than a simple walk. He knows every detail of the landscape, every anecdote about the city seen from above. An exceptional guide for an exceptional view.",
+      "ar": "الصعود إلى هضبة للّا ستي مع حمزة أكثر بكثير من مجرد نزهة. يعرف كل تفصيل في المشهد وكل حكاية عن المدينة من الأعلى. مرشد استثنائي لمنظر استثنائي."
+    },
+    "featured": true
+  },
+  {
+    "id": 3,
+    "name": "Aicha Bennani",
+    "country": { "fr": "Maroc", "en": "Morocco", "ar": "المغرب" },
+    "tour_slug": "sacred-quarter",
+    "rating": 5,
+    "text": {
+      "fr": "En tant que Maghrébine, je pensais connaître ce type de patrimoine. Hamza m'a prouvé le contraire. Sa lecture du complexe de Sidi Boumediene est d'une profondeur rare. Je suis repartie le cœur plein.",
+      "en": "As a North African, I thought I knew this type of heritage. Hamza proved me wrong. His reading of the Sidi Boumediene complex is of rare depth. I left with a full heart.",
+      "ar": "بوصفي مغاربية، ظننت أنني أعرف هذا التراث. أثبت لي حمزة العكس. قراءته لمجمع سيدي بومدين بالغة العمق والندرة. غادرت وقلبي مفعم بالامتنان."
+    },
+    "featured": false
+  },
+  {
+    "id": 4,
+    "name": "Lucas Martínez",
+    "country": { "fr": "Espagne", "en": "Spain", "ar": "إسبانيا" },
+    "tour_slug": "hidden-tlemcen",
+    "rating": 5,
+    "text": {
+      "fr": "Le four à pain communautaire — c'est ce que je retiens le plus. Ces petits détails du quotidien que seul un vrai local peut vous montrer. Hamza est bien plus qu'un guide : c'est une fenêtre sur une culture vivante.",
+      "en": "The communal bread oven — that's what I remember most. Those small everyday details that only a true local can show you. Hamza is far more than a guide: he's a window into a living culture.",
+      "ar": "الفرن الجماعي — هذا ما بقي في ذاكرتي أكثر من أي شيء. تلك التفاصيل اليومية الصغيرة التي لا يستطيع إلا ابن البلد الحقيقي أن يريها لك. حمزة أكثر من مجرد مرشد: إنه نافذة على ثقافة حية."
+    },
+    "featured": false
+  },
+  {
+    "id": 5,
+    "name": "Sarah O'Brien",
+    "country": { "fr": "Irlande", "en": "Ireland", "ar": "أيرلندا" },
+    "tour_slug": "gorges-waterfalls",
+    "rating": 5,
+    "text": {
+      "fr": "Les chutes d'El Ourit en avril, c'est magique. Hamza savait exactement où s'arrêter pour les meilleures photos. Une journée parfaite entre nature sauvage et histoire ferroviaire.",
+      "en": "El Ourit in April is magical. Hamza knew exactly where to stop for the best photos. A perfect day combining wild nature and railway history.",
+      "ar": "شلالات الأوريت في أبريل ساحرة. عرف حمزة تمامًا أين نتوقف للحصول على أفضل الصور. يوم مثالي يجمع بين الطبيعة البرية والتاريخ السككي."
+    },
+    "featured": false
+  }
+]

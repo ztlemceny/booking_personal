@@ -1,0 +1,132 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Hero from '../../components/Hero.astro';
+import StatsBar from '../../components/StatsBar.astro';
+import TourCard from '../../components/TourCard.astro';
+import TestimonialCard from '../../components/TestimonialCard.astro';
+import CtaBanner from '../../components/CtaBanner.astro';
+import { getCollection } from 'astro:content';
+import { useTranslations, LANGS, type Lang } from '../../utils/i18n';
+import testimonialData from '../../data/testimonials.json';
+
+export async function getStaticPaths() {
+  return LANGS.map(lang => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params as { lang: Lang };
+const t = useTranslations(lang);
+
+// Featured tours for this language
+const allTours = await getCollection('tours', ({ data }) => data.lang === lang && data.featured === true);
+allTours.sort((a, b) => a.data.order - b.data.order);
+
+// Featured testimonials
+const featuredTestimonials = testimonialData.filter(t => t.featured);
+
+const categories = [
+  {
+    icon: '🏛️',
+    label: t.home.cat_historical,
+    desc: t.home.cat_historical_desc,
+    img: '/images/shots/shot-01.jpg',
+  },
+  {
+    icon: '🌿',
+    label: t.home.cat_nature,
+    desc: t.home.cat_nature_desc,
+    img: '/images/shots/shot-07.jpg',
+  },
+  {
+    icon: '🎨',
+    label: t.home.cat_cultural,
+    desc: t.home.cat_cultural_desc,
+    img: '/images/shots/shot-15.jpg',
+  },
+  {
+    icon: '📷',
+    label: t.home.cat_photo,
+    desc: t.home.cat_photo_desc,
+    img: '/images/shots/shot-13.jpg',
+  },
+];
+---
+
+<BaseLayout title={lang === 'ar' ? 'الرئيسية' : lang === 'fr' ? 'Accueil' : 'Home'} lang={lang}>
+
+  <!-- Hero -->
+  <Hero lang={lang} image="/images/shots/shot-17.jpg" />
+
+  <!-- Intro -->
+  <section id="tours" class="py-20 bg-sand-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-2xl mx-auto text-center mb-14">
+        <h2 class="section-title">{t.home.intro_title}</h2>
+        <p class="section-subtitle">{t.home.intro_text}</p>
+      </div>
+
+      <!-- Categories grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        {categories.map(cat => (
+          <a href={`/${lang}/tours`} class="group relative overflow-hidden rounded-2xl aspect-square shadow-sm hover:shadow-lg transition-shadow">
+            <img src={cat.img} alt={cat.label} class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
+            <div class="absolute bottom-0 p-5 text-white">
+              <p class="font-heading text-lg font-bold leading-tight mb-1">{cat.label}</p>
+              <p class="text-white/70 text-xs">{cat.desc}</p>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats bar -->
+  <StatsBar lang={lang} />
+
+  <!-- Featured tours -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-2xl mx-auto text-center mb-14">
+        <h2 class="section-title">{t.home.featured_title}</h2>
+        <p class="section-subtitle">{t.home.featured_subtitle}</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {allTours.map(tour => (
+          <TourCard tour={tour} lang={lang} compact />
+        ))}
+      </div>
+
+      <div class="text-center mt-10">
+        <a href={`/${lang}/tours`} class="btn-outline-dark">
+          {t.tours.page_title} →
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials preview -->
+  <section class="py-20 bg-sand-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-2xl mx-auto text-center mb-14">
+        <h2 class="section-title">{t.home.testimonials_title}</h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        {featuredTestimonials.map(testimonial => (
+          <TestimonialCard testimonial={testimonial} lang={lang} />
+        ))}
+      </div>
+
+      <div class="text-center mt-10">
+        <a href={`/${lang}/testimonials`} class="btn-outline-dark">
+          {t.nav.testimonials} →
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <CtaBanner lang={lang} />
+
+</BaseLayout>

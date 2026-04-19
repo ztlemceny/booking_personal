@@ -1,0 +1,30 @@
+---
+import { useTranslations, type Lang } from '../utils/i18n';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+
+const stats = [
+  { value: '7', label: t.home.stats_years },
+  { value: '500+', label: t.home.stats_guests },
+  { value: '3', label: t.home.stats_languages },
+  { value: '15+', label: t.home.stats_sites },
+];
+---
+
+<section class="bg-olive-dark py-14">
+  <div class="max-w-5xl mx-auto px-4 sm:px-6">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+      {stats.map(stat => (
+        <div>
+          <p class="font-heading text-4xl font-bold text-gold mb-1">{stat.value}</p>
+          <p class="text-stone-300 text-sm">{stat.label}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

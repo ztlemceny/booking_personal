@@ -1,0 +1,58 @@
+---
+import { useTranslations, type Lang } from '../utils/i18n';
+import { SITE } from '../config';
+
+interface Props {
+  lang: Lang;
+  image?: string;
+}
+
+const { lang, image = '/images/shots/shot-17.jpg' } = Astro.props;
+const t = useTranslations(lang);
+---
+
+<section class="relative min-h-screen flex items-center justify-center overflow-hidden">
+  <!-- Background image -->
+  <div class="absolute inset-0">
+    <img
+      src={image}
+      alt="Tlemcen"
+      class="w-full h-full object-cover"
+      loading="eager"
+    />
+    <!-- Gradient overlay -->
+    <div class="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70"></div>
+  </div>
+
+  <!-- Content -->
+  <div class="relative z-10 text-center text-white px-4 sm:px-6 max-w-4xl mx-auto">
+    <!-- Decorative line -->
+    <div class="flex items-center justify-center gap-4 mb-8">
+      <div class="h-px w-12 bg-gold opacity-70"></div>
+      <span class="text-gold text-sm font-medium tracking-widest uppercase">Tlemcen</span>
+      <div class="h-px w-12 bg-gold opacity-70"></div>
+    </div>
+
+    <!-- Tagline -->
+    <h1 class="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 text-white drop-shadow-lg">
+      {t.hero.tagline}
+    </h1>
+
+    <!-- CTAs -->
+    <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mt-10">
+      <a href={SITE.bookingUrl} target="_blank" rel="noopener noreferrer" class="btn-primary text-base px-8 py-4">
+        {t.hero.cta_reserve}
+      </a>
+      <a href="#tours" class="btn-outline text-base px-8 py-4">
+        {t.hero.cta_discover}
+      </a>
+    </div>
+  </div>
+
+  <!-- Scroll indicator -->
+  <div class="absolute bottom-8 left-1/2 -translate-x-1/2 text-white/60 animate-bounce">
+    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+    </svg>
+  </div>
+</section>

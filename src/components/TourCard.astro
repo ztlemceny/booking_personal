@@ -1,0 +1,97 @@
+---
+import { useTranslations, type Lang } from '../utils/i18n';
+import { SITE } from '../config';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  tour: CollectionEntry<'tours'>;
+  lang: Lang;
+  compact?: boolean;
+}
+
+const { tour, lang, compact = false } = Astro.props;
+const t = useTranslations(lang);
+const { title, tagline, duration, difficulty, images, included, not_included } = tour.data;
+const mainImage = images[0] ?? '/images/shots/shot-01.jpg';
+---
+
+<article class="card flex flex-col h-full group">
+  <!-- Image -->
+  <div class="relative overflow-hidden aspect-[4/3]">
+    <img
+      src={mainImage}
+      alt={title}
+      class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+      loading="lazy"
+    />
+    <!-- Difficulty badge -->
+    <span class="absolute top-3 start-3 px-2.5 py-1 bg-white/90 backdrop-blur-sm text-stone-700 text-xs font-semibold rounded-full">
+      {difficulty}
+    </span>
+  </div>
+
+  <!-- Content -->
+  <div class="flex flex-col flex-1 p-6">
+    <h3 class="font-heading text-xl font-bold text-stone-900 leading-tight mb-1">
+      {title}
+    </h3>
+    <p class="text-stone-500 text-sm mb-4 italic">{tagline}</p>
+
+    <!-- Duration -->
+    <div class="flex items-center gap-2 text-sm text-stone-600 mb-4">
+      <svg class="w-4 h-4 text-terracotta flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </svg>
+      <span>{t.tours.duration_label}: <strong>{duration}</strong></span>
+    </div>
+
+    {!compact && (
+      <div class="grid grid-cols-2 gap-4 mb-5 text-xs">
+        <!-- Included -->
+        <div>
+          <p class="font-semibold text-stone-700 mb-2">{t.tours.included_label}</p>
+          <ul class="space-y-1">
+            {included.map((item: string) => (
+              <li class="flex items-start gap-1.5 text-stone-500">
+                <svg class="w-3.5 h-3.5 text-olive mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7" />
+                </svg>
+                {item}
+              </li>
+            ))}
+          </ul>
+        </div>
+        <!-- Not included -->
+        <div>
+          <p class="font-semibold text-stone-700 mb-2">{t.tours.not_included_label}</p>
+          <ul class="space-y-1">
+            {not_included.map((item: string) => (
+              <li class="flex items-start gap-1.5 text-stone-500">
+                <svg class="w-3.5 h-3.5 text-stone-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+                {item}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    )}
+
+    <!-- Price + CTA -->
+    <div class="mt-auto flex items-center justify-between pt-4 border-t border-stone-100">
+      <div>
+        <p class="text-xs text-stone-400 uppercase tracking-wide">{t.tours.price_label}</p>
+        <p class="text-sm font-semibold text-stone-700">{t.tours.price_value}</p>
+      </div>
+      <a
+        href={SITE.bookingUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn-primary text-xs px-4 py-2.5"
+      >
+        {t.tours.reserve_button}
+      </a>
+    </div>
+  </div>
+</article>

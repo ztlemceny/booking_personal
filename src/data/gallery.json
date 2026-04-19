@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "src": "/images/shots/shot-01.jpg",
+    "category": "historical",
+    "caption": { "fr": "Le Palais du Mechouar", "en": "Mechouar Palace", "ar": "قصر المشور" }
+  },
+  {
+    "id": 2,
+    "src": "/images/shots/shot-02.jpg",
+    "category": "historical",
+    "caption": { "fr": "La Grande Mosquée", "en": "The Great Mosque", "ar": "الجامع الكبير" }
+  },
+  {
+    "id": 3,
+    "src": "/images/shots/shot-03.jpg",
+    "category": "historical",
+    "caption": { "fr": "Les ruines de Mansourah", "en": "Mansourah Ruins", "ar": "أطلال منصورة" }
+  },
+  {
+    "id": 4,
+    "src": "/images/shots/shot-04.jpg",
+    "category": "historical",
+    "caption": { "fr": "Complexe de Sidi Boumediene", "en": "Sidi Boumediene Complex", "ar": "مجمع سيدي بومدين" }
+  },
+  {
+    "id": 5,
+    "src": "/images/shots/shot-05.jpg",
+    "category": "historical",
+    "caption": { "fr": "El Eubbad", "en": "El Eubbad", "ar": "العبّاد" }
+  },
+  {
+    "id": 6,
+    "src": "/images/shots/shot-06.jpg",
+    "category": "cultural",
+    "caption": { "fr": "Les souks de la médina", "en": "Medina souks", "ar": "أسواق المدينة" }
+  },
+  {
+    "id": 7,
+    "src": "/images/shots/shot-07.jpg",
+    "category": "nature",
+    "caption": { "fr": "Chutes d'El Ourit", "en": "El Ourit Waterfalls", "ar": "شلالات الأوريت" }
+  },
+  {
+    "id": 8,
+    "src": "/images/shots/shot-08.jpg",
+    "category": "nature",
+    "caption": { "fr": "Le Viaduc de Sidi Rached", "en": "The Railway Viaduct", "ar": "الجسر الحديدي" }
+  },
+  {
+    "id": 9,
+    "src": "/images/shots/shot-09.jpg",
+    "category": "nature",
+    "caption": { "fr": "Grottes de Beni Add", "en": "Beni Add Caves", "ar": "كهوف بني عدّ" }
+  },
+  {
+    "id": 10,
+    "src": "/images/shots/shot-10.jpg",
+    "category": "panoramas",
+    "caption": { "fr": "Plateau de Lalla Setti", "en": "Lalla Setti Plateau", "ar": "هضبة للّا ستي" }
+  },
+  {
+    "id": 11,
+    "src": "/images/shots/shot-11.jpg",
+    "category": "panoramas",
+    "caption": { "fr": "Vue panoramique sur Tlemcen", "en": "Panoramic view of Tlemcen", "ar": "منظر بانورامي على تلمسان" }
+  },
+  {
+    "id": 12,
+    "src": "/images/shots/shot-12.jpg",
+    "category": "cultural",
+    "caption": { "fr": "Artisanat traditionnel", "en": "Traditional crafts", "ar": "الحرف التقليدية" }
+  },
+  {
+    "id": 13,
+    "src": "/images/shots/shot-13.jpg",
+    "category": "panoramas",
+    "caption": { "fr": "Tlemcen vue d'en haut", "en": "Tlemcen from above", "ar": "تلمسان من الأعلى" }
+  },
+  {
+    "id": 14,
+    "src": "/images/shots/shot-14.jpg",
+    "category": "panoramas",
+    "caption": { "fr": "Les environs de Tlemcen", "en": "Tlemcen surroundings", "ar": "محيط تلمسان" }
+  },
+  {
+    "id": 15,
+    "src": "/images/shots/shot-15.jpg",
+    "category": "cultural",
+    "caption": { "fr": "La médina", "en": "The medina", "ar": "المدينة العتيقة" }
+  },
+  {
+    "id": 16,
+    "src": "/images/shots/shot-16.jpg",
+    "category": "cultural",
+    "caption": { "fr": "Four communautaire traditionnel", "en": "Traditional communal oven", "ar": "الفرن الجماعي التقليدي" }
+  },
+  {
+    "id": 17,
+    "src": "/images/shots/shot-17.jpg",
+    "category": "historical",
+    "caption": { "fr": "Architecture mauresque", "en": "Moorish architecture", "ar": "العمارة الأندلسية" }
+  },
+  {
+    "id": 18,
+    "src": "/images/shots/shot-18.jpg",
+    "category": "historical",
+    "caption": { "fr": "Zellige et stuc", "en": "Zellige and stucco", "ar": "الزليج والجبص" }
+  },
+  {
+    "id": 19,
+    "src": "/images/shots/shot-19.jpg",
+    "category": "cultural",
+    "caption": { "fr": "Vie de quartier", "en": "Neighbourhood life", "ar": "الحياة في الحي" }
+  },
+  {
+    "id": 20,
+    "src": "/images/shots/shot-20.jpg",
+    "category": "nature",
+    "caption": { "fr": "Paysage algérien", "en": "Algerian landscape", "ar": "المشهد الجزائري" }
+  },
+  {
+    "id": 21,
+    "src": "/images/shots/shot-21.jpg",
+    "category": "cultural",
+    "caption": { "fr": "Tlemcen, ville vivante", "en": "Tlemcen, a living city", "ar": "تلمسان، مدينة حية" }
+  },
+  {
+    "id": 22,
+    "src": "/images/shots/shot-22.jpg",
+    "category": "panoramas",
+    "caption": { "fr": "Lumière dorée sur Tlemcen", "en": "Golden light over Tlemcen", "ar": "الضوء الذهبي على تلمسان" }
+  }
+]

@@ -1,8 +1,8 @@
 ---
 lang: en
-title: Wild Gorges & Waterfalls
-tagline: El Ourit, the viaduct, and the raw beauty of Tlemcen's nature
-duration: Half day (4–5h)
+title: Nedroma, Tlemcen's Gem.
+tagline: A journey into the Trara Mountains to visit one of the few cities that has perfectly preserved its medieval character. Casbah / Masjid El Kebir / Hamam el Bali / Zaouia / Artisans 
+duration: Half day (5–7h)
 difficulty: Moderate
 images:
   - /images/shots/shot-07.jpg

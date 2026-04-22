@@ -1,8 +1,8 @@
 ---
 lang: en
-title: Tlemcen Panoramas
-tagline: The city seen from above — Lalla Setti and the cable car
-duration: Half day (3–4h)
+title: Maghnia - The Gateway !
+tagline: Experience the vibrant energy of the west. Visit of the Borders / Church / Local Market / 
+duration: Half day (3–5h)
 difficulty: Easy
 images:
   - /images/shots/shot-13.jpg

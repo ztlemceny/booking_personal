@@ -1,7 +1,7 @@
 ---
 lang: fr
-title: Panoramas de Tlemcen
-tagline: La ville vue d'en haut — Lalla Setti et le téléphérique
+title: Maghnia - La Porte !
+tagline: Découvrez l'énergie vibrante de l'ouest. Visite des frontières / Église / Marché local / 
 duration: Demi-journée (3–4h)
 difficulty: Facile
 images:

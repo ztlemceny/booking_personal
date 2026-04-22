@@ -1,7 +1,7 @@
 ---
 lang: fr
-title: Le Quartier Sacré
-tagline: L'âme spirituelle de Tlemcen — El Eubbad et Sidi Boumediene
+title: Agadir, visite à pied de la vieille ville
+tagline: "Agadir : À la découverte des fondations du IIIe siècle de la cité antique / Fours traditionnels / Fondouks / Souk / Masjid El Kebir / Médersas / Portes"
 duration: Demi-journée (4h)
 difficulty: Facile
 images:

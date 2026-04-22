@@ -1,7 +1,7 @@
 ---
 lang: fr
-title: Gorges Sauvages et Cascades
-tagline: El Ourit, le viaduc et la beauté brute de la nature tlemcénienne
+title: Nedroma, le joyau de Tlemcen.
+tagline: Un voyage dans les monts des Trara pour visiter l'une des rares villes ayant parfaitement conservé son caractère médiéval. Casbah / Masjid El Kebir / Hammam El Bali / Zaouïa / Artisans 
 duration: Demi-journée (4–5h)
 difficulty: Modéré
 images:

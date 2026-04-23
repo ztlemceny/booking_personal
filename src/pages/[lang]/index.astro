@@ -58,25 +58,27 @@ const featuredTestimonials = testimonialData.filter(t => t.featured);
 
 
   <!-- Testimonials preview -->
-  <section class="py-20 bg-sand-100">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="max-w-2xl mx-auto text-center mb-14">
-        <h2 class="section-title">{t.home.testimonials_title}</h2>
-      </div>
+  {featuredTestimonials.length > 0 && (
+    <section class="py-20 bg-sand-100">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-2xl mx-auto text-center mb-14">
+          <h2 class="section-title">{t.home.testimonials_title}</h2>
+        </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-        {featuredTestimonials.map(testimonial => (
-          <TestimonialCard testimonial={testimonial} lang={lang} />
-        ))}
-      </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          {featuredTestimonials.map(testimonial => (
+            <TestimonialCard testimonial={testimonial} lang={lang} />
+          ))}
+        </div>
 
-      <div class="text-center mt-10">
-        <a href={`/${lang}/testimonials`} class="btn-outline-dark">
-          {t.nav.testimonials} →
-        </a>
+        <div class="text-center mt-10">
+          <a href={`/${lang}/testimonials`} class="btn-outline-dark">
+            {t.nav.testimonials} →
+          </a>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+  )}
 
   <!-- CTA Banner -->
   <CtaBanner lang={lang} />

@@ -29,15 +29,17 @@ const t = useTranslations(lang);
   </section>
 
   <!-- Testimonials grid -->
-  <section class="py-20 bg-sand-50">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {testimonialData.map(testimonial => (
-          <TestimonialCard testimonial={testimonial} lang={lang} />
-        ))}
+  {testimonialData.length > 0 && (
+    <section class="py-20 bg-sand-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {testimonialData.map(testimonial => (
+            <TestimonialCard testimonial={testimonial} lang={lang} />
+          ))}
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+  )}
 
   <!-- Leave a review form -->
   <section class="py-20 bg-white">

@@ -2,17 +2,17 @@
 lang: fr
 title: Agadir, visite à pied de la vieille ville
 tagline: "Agadir : À la découverte des fondations du IIIe siècle de la cité antique / Fours traditionnels / Fondouks / Souk / Masjid El Kebir / Médersas / Portes"
-duration: Demi-journée (4h)
+duration: Demi-journée (5h)
 difficulty: Facile
 images:
   - /images/shots/shot-04.jpg
   - /images/shots/shot-05.jpg
-not_included:
-  - Déjeuner
-  - Dépenses personnelles
 included:
   - Transport
   - Droits d'entrée
+not_included:
+  - Déjeuner
+  - Dépenses personnelles
 order: 2
 featured: true
 ---

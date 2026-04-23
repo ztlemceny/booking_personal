@@ -1,6 +1,6 @@
 ---
 lang: en
-title: Tlemcen Historical Circuit
+title: Best of Tlemcen Full day tour
 tagline: "From Zianid palaces to the majestic ruins of Mansourah / Beni Add Caves / El Ourit Waterfalls / El Eubbad Complex / The Mechouar Palace / The Mansourah Ruins"
 duration: Full day (7–8h)
 difficulty: Moderate

@@ -1,6 +1,6 @@
 ---
 lang: fr
-title: Circuit Historique de Tlemcen
+title: Le Meilleur de Tlemcen - Visite d'une Journée Complète
 tagline: "Des palais zianides aux ruines majestueuses de Mansourah / Grottes de Beni Add / Cascades d'El Ourit / Complexe d'El Eubbad / Palais du Mechouar / Ruines de Mansourah"
 duration: Journée complète (7–8h)
 difficulty: Modéré

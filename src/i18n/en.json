@@ -121,5 +121,22 @@
     "copyright": "© 2025 Hamza — Licensed Tour Guide",
     "links_title": "Navigation",
     "social_title": "Follow us"
+  },
+  "review_form": {
+    "title": "Leave a Review",
+    "subtitle": "Share your experience with future travelers.",
+    "form_name": "Name",
+    "form_country": "Country",
+    "form_tour": "Tour taken",
+    "form_rating": "Rating",
+    "form_message": "Your review",
+    "form_submit": "Submit Review",
+    "form_success": "Thank you! Your review has been submitted.",
+    "rating_5": "5 - Excellent",
+    "rating_4": "4 - Very Good",
+    "rating_3": "3 - Average",
+    "rating_2": "2 - Poor",
+    "rating_1": "1 - Terrible",
+    "tour_other": "Other / Custom Tour"
   }
 }

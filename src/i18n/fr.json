@@ -121,5 +121,22 @@
     "copyright": "© 2025 Hamza — Guide touristique agréé",
     "links_title": "Navigation",
     "social_title": "Suivez-nous"
+  },
+  "review_form": {
+    "title": "Laisser un avis",
+    "subtitle": "Partagez votre expérience avec les futurs voyageurs.",
+    "form_name": "Nom",
+    "form_country": "Pays",
+    "form_tour": "Visite effectuée",
+    "form_rating": "Note",
+    "form_message": "Votre avis",
+    "form_submit": "Envoyer l'avis",
+    "form_success": "Merci ! Votre avis a été envoyé.",
+    "rating_5": "5 - Excellent",
+    "rating_4": "4 - Très bien",
+    "rating_3": "3 - Moyen",
+    "rating_2": "2 - Décevant",
+    "rating_1": "1 - Terrible",
+    "tour_other": "Autre / Sur mesure"
   }
 }

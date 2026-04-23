@@ -121,5 +121,22 @@
     "copyright": "© 2025 حمزة — مرشد سياحي معتمد",
     "links_title": "التنقل",
     "social_title": "تابعنا"
+  },
+  "review_form": {
+    "title": "اترك تقييمًا",
+    "subtitle": "شارك تجربتك مع زوارنا المستقبليين.",
+    "form_name": "الاسم",
+    "form_country": "البلد",
+    "form_tour": "الجولة",
+    "form_rating": "التقييم",
+    "form_message": "تقييمك",
+    "form_submit": "إرسال التقييم",
+    "form_success": "شكرًا لك! تم إرسال تقييمك.",
+    "rating_5": "5 - ممتاز",
+    "rating_4": "4 - جيد جدًا",
+    "rating_3": "3 - متوسط",
+    "rating_2": "2 - ضعيف",
+    "rating_1": "1 - سيء",
+    "tour_other": "جولة أخرى / مخصصة"
   }
 }

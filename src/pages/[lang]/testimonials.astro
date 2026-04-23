@@ -5,6 +5,7 @@ import CtaBanner from '../../components/CtaBanner.astro';
 import { useTranslations, LANGS, type Lang } from '../../utils/i18n';
 import { SITE } from '../../config';
 import testimonialData from '../../data/testimonials.json';
+import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
   return LANGS.map(lang => ({ params: { lang } }));
@@ -12,6 +13,9 @@ export async function getStaticPaths() {
 
 const { lang } = Astro.params as { lang: Lang };
 const t = useTranslations(lang);
+
+const allTours = await getCollection('tours', ({ data }) => data.lang === lang);
+allTours.sort((a, b) => a.data.order - b.data.order);
 ---
 
 <BaseLayout title={t.testimonials.page_title} lang={lang}>
@@ -88,11 +92,9 @@ const t = useTranslations(lang);
                 required
                 class="w-full px-4 py-3 border border-stone-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-terracotta/30 focus:border-terracotta transition-colors bg-white"
               >
-                <option value="historical-circuit">Historical Circuit</option>
-                <option value="sacred-quarter">Sacred Quarter</option>
-                <option value="panoramas">Panoramas</option>
-                <option value="hidden-tlemcen">Hidden Tlemcen</option>
-                <option value="gorges-waterfalls">Gorges & Waterfalls</option>
+                {allTours.map(tour => (
+                  <option value={tour.slug.split('/').pop()}>{tour.data.title}</option>
+                ))}
                 <option value="other">{t.review_form.tour_other}</option>
               </select>
             </div>

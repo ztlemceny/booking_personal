@@ -2,7 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Hero from '../../components/Hero.astro';
 import StatsBar from '../../components/StatsBar.astro';
-import TourCard from '../../components/TourCard.astro';
+import TourSlider from '../../components/TourSlider.astro';
 import TestimonialCard from '../../components/TestimonialCard.astro';
 import CtaBanner from '../../components/CtaBanner.astro';
 import { getCollection } from 'astro:content';
@@ -22,7 +22,6 @@ allTours.sort((a, b) => a.data.order - b.data.order);
 
 // Featured testimonials
 const featuredTestimonials = testimonialData.filter(t => t.featured);
-
 ---
 
 <BaseLayout title={lang === 'ar' ? 'الرئيسية' : lang === 'fr' ? 'Accueil' : 'Home'} lang={lang}>
@@ -30,20 +29,16 @@ const featuredTestimonials = testimonialData.filter(t => t.featured);
   <!-- Hero -->
   <Hero lang={lang} image="/images/shots/shot-17.jpg" />
 
-  <!-- Intro -->
-  <section id="tours" class="py-20 bg-sand-50">
+  <!-- Intro / Featured Tours -->
+  <section id="tours" class="py-20 bg-sand-50 overflow-hidden">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="max-w-2xl mx-auto text-center mb-14">
         <h2 class="section-title">{t.home.intro_title}</h2>
         <p class="section-subtitle">{t.home.intro_text}</p>
       </div>
 
-      <!-- Featured tours grid -->
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {allTours.map(tour => (
-          <TourCard tour={tour} lang={lang} compact />
-        ))}
-      </div>
+      <!-- Featured tours slider -->
+      <TourSlider tours={allTours} lang={lang} />
 
       <div class="text-center mt-10">
         <a href={`/${lang}/tours`} class="btn-outline-dark">
@@ -55,7 +50,6 @@ const featuredTestimonials = testimonialData.filter(t => t.featured);
 
   <!-- Stats bar -->
   <StatsBar lang={lang} />
-
 
   <!-- Testimonials preview -->
   {featuredTestimonials.length > 0 && (

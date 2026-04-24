@@ -1,0 +1,106 @@
+---
+import TourCard from './TourCard.astro';
+import type { CollectionEntry } from 'astro:content';
+import type { Lang } from '../utils/i18n';
+
+interface Props {
+  tours: CollectionEntry<'tours'>[];
+  lang: Lang;
+}
+
+const { tours, lang } = Astro.props;
+---
+
+<div class="tour-slider-container relative px-4 md:px-12">
+  <div class="swiper tour-swiper overflow-hidden">
+    <div class="swiper-wrapper">
+      {tours.map(tour => (
+        <div class="swiper-slide h-auto pb-12">
+          <TourCard tour={tour} lang={lang} compact />
+        </div>
+      ))}
+    </div>
+    
+    <!-- Pagination -->
+    <div class="swiper-pagination !bottom-0"></div>
+  </div>
+
+  <!-- Navigation Buttons -->
+  <button class="swiper-button-prev-custom absolute top-1/2 -translate-y-1/2 left-0 z-10 w-10 h-10 rounded-full bg-white shadow-md flex items-center justify-center text-terracotta hover:bg-terracotta hover:text-white transition-all duration-300 hidden md:flex">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-6 h-6">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+    </svg>
+  </button>
+  <button class="swiper-button-next-custom absolute top-1/2 -translate-y-1/2 right-0 z-10 w-10 h-10 rounded-full bg-white shadow-md flex items-center justify-center text-terracotta hover:bg-terracotta hover:text-white transition-all duration-300 hidden md:flex">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-6 h-6">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+    </svg>
+  </button>
+</div>
+
+<style>
+  /* Swiper Styles */
+  @import 'swiper/css';
+  @import 'swiper/css/pagination';
+
+  .swiper-pagination-bullet {
+    @apply bg-stone-300 opacity-100;
+  }
+  
+  .swiper-pagination-bullet-active {
+    @apply bg-terracotta w-6 rounded-full transition-all duration-300;
+  }
+
+  /* RTL adjustments */
+  :global([dir="rtl"]) .swiper-button-prev-custom {
+    @apply left-auto right-0 rotate-180;
+  }
+  :global([dir="rtl"]) .swiper-button-next-custom {
+    @apply right-auto left-0 rotate-180;
+  }
+</style>
+
+<script>
+  import Swiper from 'swiper';
+  import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+
+  function initSwiper() {
+    const swiperElement = document.querySelector('.tour-swiper');
+    if (!swiperElement) return;
+
+    new Swiper('.tour-swiper', {
+      modules: [Navigation, Pagination, Autoplay],
+      slidesPerView: 1,
+      spaceBetween: 24,
+      grabCursor: true,
+      loop: true,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next-custom',
+        prevEl: '.swiper-button-prev-custom',
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 24,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 32,
+        },
+      },
+    });
+  }
+
+  // Initialize on load and on transition
+  initSwiper();
+  document.addEventListener('astro:after-swap', initSwiper);
+</script>

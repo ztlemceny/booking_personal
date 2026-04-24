@@ -58,3 +58,13 @@
            hover:shadow-md transition-shadow duration-300;
   }
 }
+
+/* Swiper custom styles */
+.swiper-button-disabled {
+  @apply opacity-30 cursor-not-allowed !important;
+}
+
+.swiper-pagination {
+  @apply flex justify-center items-center gap-2;
+}
+

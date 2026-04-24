@@ -9,7 +9,6 @@ images:
   - /images/shots/shot-14.jpg
 included:
   - Transport
-  - Téléphérique (optionnel)
 not_included:
   - Déjeuner
   - Dépenses personnelles
@@ -17,7 +16,7 @@ order: 3
 featured: false
 ---
 
-Montez jusqu'au plateau de Lalla Setti, perché au-dessus des toits aux tuiles rouges de la ville. Que vous preniez le téléphérique ou les routes sinueuses, la vue panoramique sur Tlemcen et ses environs est saisissante.
+Montez jusqu'au plateau de Lalla Setti, perché au-dessus des toits aux tuiles rouges de la ville. La vue panoramique sur Tlemcen et ses environs est saisissante.
 
 C'est le meilleur point de départ pour comprendre la géographie et la beauté stratégique de la cité. Hamza vous expliquera pourquoi de grandes dynasties ont choisi ce site, comment le relief a façonné l'histoire, et où pointer votre appareil pour les meilleures photos — que ce soit à l'aube dorée ou au coucher du soleil.
 

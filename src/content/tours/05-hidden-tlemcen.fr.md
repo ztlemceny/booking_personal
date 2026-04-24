@@ -9,7 +9,6 @@ images:
   - /images/shots/shot-16.jpg
 included:
   - Transport
-  - Thé offert chez un artisan
 not_included:
   - Déjeuner
   - Achats dans les souks

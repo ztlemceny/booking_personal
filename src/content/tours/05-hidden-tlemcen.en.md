@@ -9,7 +9,6 @@ images:
   - /images/shots/shot-16.jpg
 included:
   - Transport
-  - Tea offered at a craftsman's workshop
 not_included:
   - Lunch
   - Souk purchases

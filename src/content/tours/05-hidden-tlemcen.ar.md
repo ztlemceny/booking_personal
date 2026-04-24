@@ -9,7 +9,6 @@ images:
   - /images/shots/shot-16.jpg
 included:
   - النقل
-  - شاي مُقدَّم في ورشة حرفي
 not_included:
   - الغداء
   - المشتريات من السوق

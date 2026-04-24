@@ -16,8 +16,8 @@ export async function getStaticPaths() {
 const { lang } = Astro.params as { lang: Lang };
 const t = useTranslations(lang);
 
-// Featured tours for this language
-const allTours = await getCollection('tours', ({ data }) => data.lang === lang && data.featured === true);
+// Featured tours for this language (now includes all tours as per user request)
+const allTours = await getCollection('tours', ({ data }) => data.lang === lang);
 allTours.sort((a, b) => a.data.order - b.data.order);
 
 // Featured testimonials

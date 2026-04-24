@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "id": 1,
+    "name": "Eileen",
+    "country": {
+      "en": "Australia • Oct 2025 • Verified booking",
+      "fr": "Australie • Oct 2025 • Réservation vérifiée",
+      "ar": "أستراليا • أكتوبر 2025 • حجز مؤكد"
+    },
+    "rating": 5,
+    "text": {
+      "en": "Our Guide, Hamza was so informative about all the sites but also the way of life in Algeria. Excellent English, attentive to our comfort and gentle natured. Friendly and respectful to all he met and kind to animals we encountered. His passion for Algerian history & culture apparent. I Can’t praise him enough. Our driver Kadek was good also. The sites visited were given sufficient time to explore. One of the best excursions we’ve had.",
+      "fr": "Notre guide, Hamza, était très instructif sur tous les sites, mais aussi sur le mode de vie en Algérie. Un excellent anglais, attentif à notre confort et d'une nature douce. Amical et respectueux envers tous ceux qu'il a rencontrés et gentil avec les animaux que nous avons croisés. Sa passion pour l'histoire et la culture algériennes est évidente. Je ne taris pas d'éloges à son égard. Notre chauffeur Kadek était très bien aussi. Le temps imparti pour explorer les sites visités était suffisant. L'une des meilleures excursions que nous ayons faites.",
+      "ar": "كان مرشدنا، حمزة، غنيًا بالمعلومات حول جميع المواقع ولكن أيضًا حول أسلوب الحياة في الجزائر. لغته الإنجليزية ممتازة، وكان منتبهًا لراحتنا ولطيفًا. كان ودودًا ومحترمًا مع كل من قابله ولطيفًا مع الحيوانات التي صادفناها. شغفه بالتاريخ والثقافة الجزائرية واضح. لا أستطيع أن أمدحه بما فيه الكفاية. سائقنا قاديك كان جيدًا أيضًا. تم إعطاء المواقع التي تمت زيارتها وقتًا كافيًا لاستكشافها. من أفضل الرحلات التي قمنا بها."
+    }
+  }
+]

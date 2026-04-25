@@ -11,13 +11,14 @@ const t = useTranslations(lang);
 const path = Astro.url.pathname;
 const isRTL = lang === 'ar';
 
+const base = import.meta.env.BASE_URL;
 const links = [
-  { href: `/${lang}/`, label: t.nav.home },
-  { href: `/${lang}/tours`, label: t.nav.tours },
-  { href: `/${lang}/about`, label: t.nav.about },
-  { href: `/${lang}/gallery`, label: t.nav.gallery },
-  { href: `/${lang}/testimonials`, label: t.nav.testimonials },
-  { href: `/${lang}/contact`, label: t.nav.contact },
+  { href: `${base}${lang}/`, label: t.nav.home },
+  { href: `${base}${lang}/tours`, label: t.nav.tours },
+  { href: `${base}${lang}/about`, label: t.nav.about },
+  { href: `${base}${lang}/gallery`, label: t.nav.gallery },
+  { href: `${base}${lang}/testimonials`, label: t.nav.testimonials },
+  { href: `${base}${lang}/contact`, label: t.nav.contact },
 ];
 
 const otherLangs = LANGS.filter(l => l !== lang);
@@ -28,7 +29,7 @@ const otherLangs = LANGS.filter(l => l !== lang);
     <div class="flex items-center justify-between h-16">
 
       <!-- Logo -->
-      <a href={`/${lang}/`} class="font-heading text-xl font-bold text-stone-900 tracking-tight hover:text-terracotta transition-colors">
+      <a href={`${base}${lang}/`} class="font-heading text-xl font-bold text-stone-900 tracking-tight hover:text-terracotta transition-colors">
         Ztlemceny
       </a>
 

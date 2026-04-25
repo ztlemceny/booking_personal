@@ -41,7 +41,7 @@ const featuredTestimonials = testimonialData.filter(t => t.featured);
       <TourSlider tours={allTours} lang={lang} />
 
       <div class="text-center mt-10">
-        <a href={`${import.meta.env.BASE_URL}${lang}/tours`} class="btn-outline-dark">
+        <a href={`${import.meta.env.BASE_URL}/`.replace(/\/+/g, '/') + `${lang}/tours`} class="btn-outline-dark">
           {t.tours.page_title} →
         </a>
       </div>
@@ -66,7 +66,7 @@ const featuredTestimonials = testimonialData.filter(t => t.featured);
         </div>
 
         <div class="text-center mt-10">
-          <a href={`${import.meta.env.BASE_URL}${lang}/testimonials`} class="btn-outline-dark">
+          <a href={`${import.meta.env.BASE_URL}/`.replace(/\/+/g, '/') + `${lang}/testimonials`} class="btn-outline-dark">
             {t.nav.testimonials} →
           </a>
         </div>

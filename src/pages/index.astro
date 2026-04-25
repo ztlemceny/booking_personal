@@ -1,4 +1,4 @@
 ---
 // Redirect root to French by default, respecting the base path
-return Astro.redirect(`${import.meta.env.BASE_URL}fr/`, 302);
+return Astro.redirect(`${import.meta.env.BASE_URL}/fr/`.replace(/\/+/g, '/'), 302);
 ---

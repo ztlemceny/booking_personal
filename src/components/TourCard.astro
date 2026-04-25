@@ -19,7 +19,7 @@ const mainImage = images[0] ?? '/images/shots/shot-01.jpg';
   <!-- Image -->
   <div class="relative overflow-hidden aspect-[4/3]">
     <img
-      src={mainImage}
+      src={mainImage.startsWith('/') ? `${import.meta.env.BASE_URL}${mainImage}`.replace(/\/+/g, '/') : mainImage}
       alt={title}
       class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
       loading="lazy"

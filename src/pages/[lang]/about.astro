@@ -25,7 +25,7 @@ const sections = [t.about.section_story, t.about.section_perspective, t.about.se
   <!-- Page header -->
   <section class="relative py-24 overflow-hidden">
     <div class="absolute inset-0">
-      <img src="/images/shots/shot-18.jpg" alt="" class="w-full h-full object-cover" />
+      <img src={`${import.meta.env.BASE_URL}/images/shots/shot-18.jpg`.replace(/\/+/g, '/')} alt="" class="w-full h-full object-cover" />
       <div class="absolute inset-0 bg-olive-dark/80"></div>
     </div>
     <div class="relative max-w-3xl mx-auto px-4 sm:px-6 text-center">
@@ -42,7 +42,7 @@ const sections = [t.about.section_story, t.about.section_perspective, t.about.se
         <aside class="lg:col-span-2 space-y-6">
           <div class="rounded-2xl overflow-hidden shadow-lg aspect-[3/4]">
             <img
-              src="/images/shots/shot-22.jpg"
+              src={`${import.meta.env.BASE_URL}/images/shots/shot-22.jpg`.replace(/\/+/g, '/')}
               alt="Hamza — Guide touristique"
               class="w-full h-full object-cover"
               loading="lazy"

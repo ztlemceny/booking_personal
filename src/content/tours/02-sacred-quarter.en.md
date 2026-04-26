@@ -16,6 +16,13 @@ not_included:
 order: 2
 featured: true
 price: 40 €
+itinerary:
+  - Agadir ruins (City foundations)
+  - Traditional communal ovens
+  - Historic Fundouks (Travelers' inns)
+  - The vibrant Medina Souks
+  - Masjid El Kebir (Great Mosque)
+  - Medieval Madrassas & City Gates
 ---
 
 El Eubbad, the quarter of the saints, is the spiritual soul of Tlemcen. The Sidi Boumediene complex — mosque, medersa, and tomb — is one of the masterpieces of Merinid architecture in North Africa. Here, history, faith, and art are one.

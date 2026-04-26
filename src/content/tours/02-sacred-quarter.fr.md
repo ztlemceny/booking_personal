@@ -16,6 +16,13 @@ not_included:
 order: 2
 featured: true
 price: 40 €
+itinerary:
+  - Ruines d'Agadir (fondations de la ville)
+  - Fours à pain traditionnels communautaires
+  - Fondouks historiques (auberges de voyageurs)
+  - Les souks vibrants de la Médina
+  - Masjid El Kebir (Grande Mosquée)
+  - Médersas médiévales et portes de la ville
 ---
 
 El Eubbad, le quartier des saints, est l'âme spirituelle de Tlemcen. Le complexe de Sidi Boumediene — mosquée, medersa et tombeau — est l'un des chefs-d'œuvre de l'architecture mérinide en Afrique du Nord. Ici, l'histoire, la foi et l'art ne font qu'un.

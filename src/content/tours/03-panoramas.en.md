@@ -15,6 +15,11 @@ not_included:
 order: 3
 featured: false
 price: 90 €
+itinerary:
+  - The Algerian-Moroccan border region
+  - Historic church of Maghnia
+  - Bustling local textile & food market
+  - Cultural exchange points
 ---
 
 Maghnia, the gateway to the west, is a vibrant crossroads of culture and commerce. This tour takes you to the heart of the border region, where you'll experience the unique energy of a city that has always been a meeting point between Algeria and the wider Maghreb.

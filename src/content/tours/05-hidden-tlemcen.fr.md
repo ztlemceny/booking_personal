@@ -15,6 +15,12 @@ not_included:
 order: 5
 featured: false
 price: 30 €
+itinerary:
+  - Ruelles cachées de la Médina
+  - Souks secrets d'épices et de textiles
+  - Fours à pain ancestraux communautaires
+  - Ateliers d'artisans locaux
+  - Dégustation de cuisine de rue traditionnelle
 ---
 
 La vraie âme de Tlemcen vit dans les ruelles étroites de la médina. Nous flânerons à travers les souks animés, visiterons les fondouks ancestraux et nous arrêterons aux fours communautaires où le pain cuit encore comme au temps de nos ancêtres.

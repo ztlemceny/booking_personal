@@ -17,6 +17,13 @@ not_included:
 order: 1
 featured: true
 price: 90 €
+itinerary:
+  - Palais du Mechouar (résidence royale zianide)
+  - La Grande Mosquée de Tlemcen
+  - Complexe d'El Eubbad (Sidi Boumediene)
+  - Grottes de Beni Add (merveilles souterraines)
+  - Cascades et viaduc d'El Ourit
+  - Ruines et minaret de Mansourah
 ---
 
 Traversez les siècles en une seule journée. Ce circuit emblématique vous conduit du Palais du Mechouar aux ruines majestueuses de Mansourah, en passant par la Grande Mosquée. Chaque site révèle une couche de l'histoire complexe de Tlemcen — capitale des Zianides, carrefour de civilisations, gardienne d'un patrimoine architectural unique au monde.

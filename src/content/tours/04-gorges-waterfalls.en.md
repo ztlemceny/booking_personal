@@ -15,6 +15,12 @@ not_included:
 order: 4
 featured: false
 price: 90 €
+itinerary:
+  - The Medieval Casbah of Nedroma
+  - Masjid El Kebir (11th century)
+  - Hammam el Bali (Traditional bathhouse)
+  - Spiritual Zaouias
+  - Traditional Artisan Workshops (Weaving & Pottery)
 ---
 
 Nedroma, the gem of the Trara mountains, is a city where time seems to have stood still. As one of the few cities to have perfectly preserved its medieval character, Nedroma offers a unique journey into the past.

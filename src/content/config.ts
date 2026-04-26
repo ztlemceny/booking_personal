@@ -14,6 +14,7 @@ const tours = defineCollection({
     order: z.number(),
     featured: z.boolean().optional(),
     price: z.string().optional(),
+    itinerary: z.array(z.string()).optional(),
   }),
 });
 

@@ -15,6 +15,12 @@ not_included:
 order: 5
 featured: false
 price: 30 €
+itinerary:
+  - Hidden alleys of the Medina
+  - Secret spice and textile souks
+  - Ancestral communal bread ovens
+  - Local craftsmen's workshops
+  - Tasting traditional street food
 ---
 
 The true soul of Tlemcen lives in the medina's narrow alleys. We'll wander through the bustling souks, visit ancestral fondouks, and stop at communal ovens where bread still bakes as it did in ancestors' times.

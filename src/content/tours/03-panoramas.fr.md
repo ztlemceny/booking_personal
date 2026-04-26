@@ -15,6 +15,11 @@ not_included:
 order: 3
 featured: false
 price: 90 €
+itinerary:
+  - Région frontalière algéro-marocaine
+  - Église historique de Maghnia
+  - Marché local de textiles et de produits frais
+  - Points d'échanges culturels
 ---
 
 Maghnia, la porte de l'ouest, est un carrefour vibrant de culture et de commerce. Ce circuit vous emmène au cœur de la région frontalière, où vous découvrirez l'énergie unique d'une ville qui a toujours été un point de rencontre entre l'Algérie et le reste du Maghreb.

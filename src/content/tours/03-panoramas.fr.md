@@ -14,10 +14,11 @@ not_included:
   - Dépenses personnelles
 order: 3
 featured: false
+price: 90 €
 ---
 
-Montez jusqu'au plateau de Lalla Setti, perché au-dessus des toits aux tuiles rouges de la ville. La vue panoramique sur Tlemcen et ses environs est saisissante.
+Maghnia, la porte de l'ouest, est un carrefour vibrant de culture et de commerce. Ce circuit vous emmène au cœur de la région frontalière, où vous découvrirez l'énergie unique d'une ville qui a toujours été un point de rencontre entre l'Algérie et le reste du Maghreb.
 
-C'est le meilleur point de départ pour comprendre la géographie et la beauté stratégique de la cité. Hamza vous expliquera pourquoi de grandes dynasties ont choisi ce site, comment le relief a façonné l'histoire, et où pointer votre appareil pour les meilleures photos — que ce soit à l'aube dorée ou au coucher du soleil.
+Nous visiterons l'église historique, flânerons dans les marchés locaux animés où vous trouverez de tout, des textiles traditionnels aux spécialités régionales, et obtiendrez une perspective unique sur la vie dans cette ville frontalière.
 
-Une visite idéale pour les passionnés de photographie et ceux qui veulent voir Tlemcen dans son ensemble avant de plonger dans ses détails.
+Hamza vous guidera à travers les monuments de la ville et partagera l'histoire du rôle de Maghnia en tant que centre stratégique et culturel. C'est une visite pour ceux qui veulent ressentir le pouls authentique de l'ouest de l'Algérie.

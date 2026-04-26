@@ -14,6 +14,7 @@ not_included:
   - Souk purchases
 order: 5
 featured: false
+price: 30 €
 ---
 
 The true soul of Tlemcen lives in the medina's narrow alleys. We'll wander through the bustling souks, visit ancestral fondouks, and stop at communal ovens where bread still bakes as it did in ancestors' times.

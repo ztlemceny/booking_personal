@@ -16,6 +16,7 @@ not_included:
   - Personal expenses
 order: 1
 featured: true
+price: 90 €
 ---
 
 Journey through centuries in a single day. This flagship circuit takes you from the Mechouar Palace to the majestic ruins of Mansourah, passing through the Great Mosque. Each site reveals a layer of Tlemcen's complex history — capital of the Zianids, crossroads of civilizations, guardian of an architectural heritage unique in the world.

@@ -15,6 +15,7 @@ not_included:
   - Personal expenses
 order: 2
 featured: true
+price: 40 €
 ---
 
 El Eubbad, the quarter of the saints, is the spiritual soul of Tlemcen. The Sidi Boumediene complex — mosque, medersa, and tomb — is one of the masterpieces of Merinid architecture in North Africa. Here, history, faith, and art are one.

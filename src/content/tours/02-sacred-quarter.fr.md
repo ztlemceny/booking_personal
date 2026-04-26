@@ -15,6 +15,7 @@ not_included:
   - Dépenses personnelles
 order: 2
 featured: true
+price: 40 €
 ---
 
 El Eubbad, le quartier des saints, est l'âme spirituelle de Tlemcen. Le complexe de Sidi Boumediene — mosquée, medersa et tombeau — est l'un des chefs-d'œuvre de l'architecture mérinide en Afrique du Nord. Ici, l'histoire, la foi et l'art ne font qu'un.

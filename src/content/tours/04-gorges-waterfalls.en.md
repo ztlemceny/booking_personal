@@ -14,10 +14,11 @@ not_included:
   - Personal expenses
 order: 4
 featured: false
+price: 90 €
 ---
 
-Nature and engineering meet in this spectacular gorge. The El Ourit waterfalls offer welcome freshness, especially in spring, while the railway viaduct imposes its industrial silhouette over the wild landscape.
+Nedroma, the gem of the Trara mountains, is a city where time seems to have stood still. As one of the few cities to have perfectly preserved its medieval character, Nedroma offers a unique journey into the past.
 
-A must for photography enthusiasts and outdoor lovers. The falls, fed by spring rains, create scenes of almost unreal beauty. The viaduct tells a different story — of colonisation, modernisation, and the permanent contrast between nature and human architecture.
+We'll explore the historic Casbah, visit the Great Mosque, and discover the hidden beauty of the Zaouias. A key highlight of this tour is visiting the workshops of local artisans. You'll have the chance to witness firsthand the skills of master weavers and craftsmen who continue to practice ancestral techniques, keeping the city's rich cultural heritage alive.
 
-Hamza knows the least-trodden paths, the angles that reveal the true majesty of the place, and the times of day when the light transforms the gorge into a painting.
+Hamza will take you through the winding streets and share the fascinating history of this intellectual and spiritual center, ensuring you experience the true heart and soul of Nedroma.

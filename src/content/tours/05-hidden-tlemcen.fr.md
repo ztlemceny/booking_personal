@@ -14,6 +14,7 @@ not_included:
   - Achats dans les souks
 order: 5
 featured: false
+price: 30 €
 ---
 
 La vraie âme de Tlemcen vit dans les ruelles étroites de la médina. Nous flânerons à travers les souks animés, visiterons les fondouks ancestraux et nous arrêterons aux fours communautaires où le pain cuit encore comme au temps de nos ancêtres.

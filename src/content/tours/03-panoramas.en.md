@@ -14,10 +14,11 @@ not_included:
   - Personal expenses
 order: 3
 featured: false
+price: 90 €
 ---
 
-Ascend to the Lalla Setti plateau, perched above the city's red-tiled rooftops. The panoramic view over Tlemcen and its surroundings is breathtaking.
+Maghnia, the gateway to the west, is a vibrant crossroads of culture and commerce. This tour takes you to the heart of the border region, where you'll experience the unique energy of a city that has always been a meeting point between Algeria and the wider Maghreb.
 
-It's the best starting point for understanding the city's geography and strategic beauty. Hamza will explain why great dynasties chose this site, how the relief shaped history, and where to point your camera for the best shots — whether at golden dawn or at sunset.
+We'll visit the historic church, wander through the bustling local markets where you can find everything from traditional textiles to regional delicacies, and gain a unique perspective on life in this frontier town.
 
-An ideal tour for photography enthusiasts and those who want to see Tlemcen as a whole before diving into its details.
+Hamza will guide you through the city's landmarks and share the history of Maghnia's role as a strategic and cultural hub. It's a tour for those who want to experience the authentic, unvarnished pulse of western Algeria.

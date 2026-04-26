@@ -11,7 +11,7 @@ interface Props {
 
 const { tour, lang, compact = false } = Astro.props;
 const t = useTranslations(lang);
-const { title, tagline, duration, difficulty, images, included, not_included } = tour.data;
+const { title, tagline, duration, difficulty, images, included, not_included, price } = tour.data;
 const mainImage = images[0] ?? '/images/shots/shot-01.jpg';
 ---
 
@@ -82,7 +82,7 @@ const mainImage = images[0] ?? '/images/shots/shot-01.jpg';
     <div class="mt-auto flex items-center justify-between pt-4 border-t border-stone-100">
       <div>
         <p class="text-xs text-stone-400 uppercase tracking-wide">{t.tours.price_label}</p>
-        <p class="text-sm font-semibold text-stone-700">{t.tours.price_value}</p>
+        <p class="text-sm font-semibold text-stone-700">{price || t.tours.price_value}</p>
       </div>
       <a
         href={SITE.bookingUrl}

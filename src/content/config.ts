@@ -13,6 +13,7 @@ const tours = defineCollection({
     not_included: z.array(z.string()),
     order: z.number(),
     featured: z.boolean().optional(),
+    price: z.string().optional(),
   }),
 });
 

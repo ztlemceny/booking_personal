@@ -25,7 +25,7 @@ const whatsappUrl = `${SITE.whatsappUrl}?text=${encodeURIComponent(whatsappMessa
 
 <article class="card flex flex-col h-full group">
   <!-- Image -->
-  <a href={tourLink} class="relative overflow-hidden aspect-[4/3] watermark block group-hover:opacity-90 transition-opacity">
+  <a href={tourLink} class={`relative overflow-hidden ${compact ? 'aspect-video' : 'aspect-[4/3]'} watermark block group-hover:opacity-90 transition-opacity`}>
     <img
       src={mainImage.startsWith('/') ? `${import.meta.env.BASE_URL}${mainImage}`.replace(/\/+/g, '/') : mainImage}
       alt={title}
@@ -36,18 +36,18 @@ const whatsappUrl = `${SITE.whatsappUrl}?text=${encodeURIComponent(whatsappMessa
     <span class="absolute top-3 start-3 px-2.5 py-1 bg-white/90 backdrop-blur-sm text-stone-700 text-xs font-semibold rounded-full">
       {difficulty}
     </span>
-  </div>
+  </a>
 
   <!-- Content -->
-  <div class={`flex flex-col flex-1 ${compact ? 'pt-3 px-4 pb-4' : 'p-6'}`}>
-    <h3 class={`font-heading ${compact ? 'text-lg min-h-[2.5rem]' : 'text-xl min-h-[3.5rem]'} font-bold text-stone-900 leading-tight mb-1 line-clamp-2`}>
+  <div class={`flex flex-col flex-1 ${compact ? 'pt-2 px-3 pb-3' : 'p-6'}`}>
+    <h3 class={`font-heading ${compact ? 'text-base' : 'text-xl min-h-[3.5rem]'} font-bold text-stone-900 leading-tight mb-1 line-clamp-2`}>
       <a href={tourLink} class="hover:text-terracotta transition-colors">{title}</a>
     </h3>
-    <p class={`text-stone-500 text-sm ${compact ? 'mb-2 line-clamp-2 min-h-[2.5rem]' : 'mb-4 line-clamp-3 min-h-[4.5rem]'} italic`}>{tagline}</p>
+    <p class={`text-stone-500 text-xs ${compact ? 'mb-1 line-clamp-2' : 'mb-4 italic line-clamp-3 min-h-[4.5rem]'}`}>{tagline}</p>
 
     <!-- Duration -->
-    <div class="flex items-center gap-2 text-sm text-stone-600 mb-4">
-      <svg class="w-4 h-4 text-terracotta flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <div class={`flex items-center gap-2 ${compact ? 'text-[10px] mb-2' : 'text-sm mb-4'} text-stone-600`}>
+      <svg class={`${compact ? 'w-3 h-3' : 'w-4 h-4'} text-terracotta flex-shrink-0`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
       </svg>
       <span>{t.tours.duration_label}: <strong>{duration}</strong></span>

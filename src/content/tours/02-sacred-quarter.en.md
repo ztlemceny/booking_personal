@@ -1,7 +1,7 @@
 ---
 lang: en
 title: Agadir, a walking tour in the old town
-tagline: "Agadir: Discovering the 3rd-century foundations of the ancient city / Traditional Ovens / Fundouks / Souk / Masjid El Kebir / Madrassas / Gates"
+tagline: "Discover the 3rd-century foundations and the spiritual soul of Tlemcen's oldest quarter."
 duration: Half day (5h)
 difficulty: Easy
 images:

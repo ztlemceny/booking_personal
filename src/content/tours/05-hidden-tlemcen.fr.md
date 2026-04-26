@@ -1,7 +1,7 @@
 ---
 lang: fr
 title: Tlemcen Cachée
-tagline: La médina, les souks, les fondouks et les fours communautaires
+tagline: Découvrez l'âme secrète de Tlemcen à travers ses ruelles cachées et ses traditions ancestrales.
 duration: Demi-journée (4h)
 difficulty: Facile
 images:

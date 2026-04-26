@@ -1,7 +1,7 @@
 ---
 lang: en
 title: Hidden Tlemcen
-tagline: The medina, souks, fondouks, and communal ovens
+tagline: "Uncover the secret soul of Tlemcen through its hidden alleys and ancestral traditions."
 duration: Half day (4h)
 difficulty: Easy
 images:

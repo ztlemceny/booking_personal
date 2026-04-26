@@ -1,7 +1,7 @@
 ---
 lang: fr
 title: Nedroma, le joyau de Tlemcen.
-tagline: "Un voyage dans les monts des Trara pour visiter l'une des rares villes ayant parfaitement conservé son caractère médiéval. Casbah / Masjid El Kebir / Hammam El Bali / Zaouïa / Artisans"
+tagline: "Explorez une ville médiévale parfaitement préservée, nichée au cœur des monts Trara."
 duration: Journée complète (8h)
 difficulty: Modéré
 images:

@@ -1,7 +1,7 @@
 ---
 lang: en
 title: Maghnia - The Gateway !
-tagline: Experience the vibrant energy of the west. Visit of the Borders / Church / Local Market / 
+tagline: Experience the vibrant energy and cultural crossroads of Maghnia and the western border.
 duration: Full day (8h)
 difficulty: Easy
 images:

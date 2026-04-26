@@ -1,7 +1,7 @@
 ---
 lang: en
 title: Best of Tlemcen Full day tour
-tagline: "From Zianid palaces to the majestic ruins of Mansourah / Beni Add Caves / El Ourit Waterfalls / El Eubbad Complex / The Mechouar Palace / The Mansourah Ruins"
+tagline: "A journey through the centuries, from Zianid palaces to the majestic ruins of Mansourah."
 duration: Full day (7–8h)
 difficulty: Moderate
 images:

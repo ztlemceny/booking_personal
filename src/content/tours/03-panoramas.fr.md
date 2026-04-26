@@ -1,7 +1,7 @@
 ---
 lang: fr
 title: Maghnia - La Porte !
-tagline: "Découvrez l'énergie vibrante de l'ouest. Visite des frontières / Église / Marché local /"
+tagline: "Découvrez l'énergie vibrante et le carrefour culturel de Maghnia et de la frontière ouest."
 duration: Journée complète (8h)
 difficulty: Facile
 images:

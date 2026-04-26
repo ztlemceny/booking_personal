@@ -1,7 +1,7 @@
 ---
 lang: fr
 title: Agadir, visite à pied de la vieille ville
-tagline: "Agadir : À la découverte des fondations du IIIe siècle de la cité antique / Fours traditionnels / Fondouks / Souk / Masjid El Kebir / Médersas / Portes"
+tagline: "Découvrez les fondations du IIIe siècle et l'âme spirituelle du plus vieux quartier de Tlemcen."
 duration: Demi-journée (5h)
 difficulty: Facile
 images:

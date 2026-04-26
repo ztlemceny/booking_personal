@@ -1,7 +1,7 @@
 ---
 lang: en
 title: Nedroma, Tlemcen's Gem.
-tagline: A journey into the Trara Mountains to visit one of the few cities that has perfectly preserved its medieval character. Casbah / Masjid El Kebir / Hamam el Bali / Zaouia / Artisans 
+tagline: "Explore a perfectly preserved medieval city nestled in the heart of the Trara Mountains."
 duration: Full day (8h)
 difficulty: Moderate
 images:

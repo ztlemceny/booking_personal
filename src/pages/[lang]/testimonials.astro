@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import TestimonialCard from '../../components/TestimonialCard.astro';
+import PressMention from '../../components/PressMention.astro';
 import CtaBanner from '../../components/CtaBanner.astro';
 import { useTranslations, LANGS, type Lang } from '../../utils/i18n';
 import { SITE } from '../../config';
@@ -31,6 +32,9 @@ allTours.sort((a, b) => a.data.order - b.data.order);
       <p class="text-stone-300 text-lg">{t.testimonials.page_subtitle}</p>
     </div>
   </section>
+
+  <!-- Press Mention -->
+  <PressMention lang={lang} />
 
   <!-- Testimonials grid -->
   {testimonialData.length > 0 && (

@@ -4,6 +4,7 @@ import Hero from '../../components/Hero.astro';
 import StatsBar from '../../components/StatsBar.astro';
 import TourSlider from '../../components/TourSlider.astro';
 import TestimonialCard from '../../components/TestimonialCard.astro';
+import PressMention from '../../components/PressMention.astro';
 import CtaBanner from '../../components/CtaBanner.astro';
 import { getCollection } from 'astro:content';
 import { useTranslations, LANGS, type Lang } from '../../utils/i18n';
@@ -50,6 +51,9 @@ const featuredTestimonials = testimonialData.filter(t => t.featured);
 
   <!-- Stats bar -->
   <StatsBar lang={lang} />
+
+  <!-- Press Mention -->
+  <PressMention lang={lang} />
 
   <!-- Testimonials preview -->
   {featuredTestimonials.length > 0 && (

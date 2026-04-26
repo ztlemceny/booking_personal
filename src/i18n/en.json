@@ -34,7 +34,10 @@
     "testimonials_title": "What our guests say",
     "cta_title": "Ready to discover Tlemcen?",
     "cta_text": "Book your guided tour today and let Hamza tell you the story of his city.",
-    "cta_button": "Book My Tour"
+    "cta_button": "Book My Tour",
+    "press_title": "As Seen In",
+    "press_quote": "Hamza is a passionate and knowledgeable guide who brings Tlemcen's history to life with his deep local insights.",
+    "press_source": "Lonely Planet Algeria"
   },
   "tours": {
     "page_title": "Our Tours",
@@ -60,6 +63,8 @@
     "languages_label": "Languages",
     "languages_value": "Arabic · French · English",
     "badge_label": "Licensed guide",
+    "lp_label": "Lonely Planet",
+    "lp_value": "Official Recommendation",
     "cta_label": "Book with Hamza"
   },
   "gallery": {

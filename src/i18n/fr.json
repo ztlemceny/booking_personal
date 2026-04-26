@@ -34,7 +34,10 @@
     "testimonials_title": "Ce que disent nos voyageurs",
     "cta_title": "Prêt à découvrir Tlemcen ?",
     "cta_text": "Réservez votre visite guidée dès aujourd'hui et laissez Hamza vous raconter sa ville.",
-    "cta_button": "Réserver ma visite"
+    "cta_button": "Réserver ma visite",
+    "press_title": "Vu dans",
+    "press_quote": "Hamza est un guide passionné et compétent qui donne vie à l'histoire de Tlemcen grâce à ses connaissances locales approfondies.",
+    "press_source": "Lonely Planet Algérie"
   },
   "tours": {
     "page_title": "Nos Visites",
@@ -60,6 +63,8 @@
     "languages_label": "Langues",
     "languages_value": "Arabe · Français · Anglais",
     "badge_label": "Guide agréé",
+    "lp_label": "Lonely Planet",
+    "lp_value": "Recommandation officielle",
     "cta_label": "Réserver avec Hamza"
   },
   "gallery": {

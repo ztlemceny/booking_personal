@@ -13,11 +13,19 @@ const { tour, lang, compact = false } = Astro.props;
 const t = useTranslations(lang);
 const { title, tagline, duration, difficulty, images, included, not_included, price, itinerary } = tour.data;
 const mainImage = images[0] ?? '/images/shots/shot-01.jpg';
+
+const [slug] = tour.slug.split('.');
+const tourLink = `${import.meta.env.BASE_URL}/${lang}/tours/${slug}`.replace(/\/+/g, '/');
+
+const whatsappMessage = t.tours.whatsapp_message_template
+  .replace('{title}', title)
+  .replace('{price}', price || t.tours.price_value);
+const whatsappUrl = `${SITE.whatsappUrl}?text=${encodeURIComponent(whatsappMessage)}`;
 ---
 
 <article class="card flex flex-col h-full group">
   <!-- Image -->
-  <div class="relative overflow-hidden aspect-[4/3] watermark">
+  <a href={tourLink} class="relative overflow-hidden aspect-[4/3] watermark block group-hover:opacity-90 transition-opacity">
     <img
       src={mainImage.startsWith('/') ? `${import.meta.env.BASE_URL}${mainImage}`.replace(/\/+/g, '/') : mainImage}
       alt={title}
@@ -33,7 +41,7 @@ const mainImage = images[0] ?? '/images/shots/shot-01.jpg';
   <!-- Content -->
   <div class="flex flex-col flex-1 p-6">
     <h3 class="font-heading text-xl font-bold text-stone-900 leading-tight mb-1 line-clamp-2 min-h-[3.5rem]">
-      {title}
+      <a href={tourLink} class="hover:text-terracotta transition-colors">{title}</a>
     </h3>
     <p class="text-stone-500 text-sm mb-4 italic line-clamp-6 min-h-[9rem]">{tagline}</p>
 
@@ -103,14 +111,25 @@ const mainImage = images[0] ?? '/images/shots/shot-01.jpg';
         <p class="text-xs text-stone-400 uppercase tracking-wide">{t.tours.price_label}</p>
         <p class="text-sm font-semibold text-stone-700">{price || t.tours.price_value}</p>
       </div>
-      <a
-        href={SITE.bookingUrl}
-        target="_blank"
-        rel="noopener noreferrer"
-        class="btn-primary text-xs px-4 py-2.5"
-      >
-        {t.tours.reserve_button}
-      </a>
+      <div class="flex items-center gap-2">
+        <a
+          href={tourLink}
+          class="text-stone-400 hover:text-stone-600 transition-colors p-2"
+          title="View Details"
+        >
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+        </a>
+        <a
+          href={whatsappUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-primary text-xs px-4 py-2.5 whitespace-nowrap"
+        >
+          {t.tours.reserve_button}
+        </a>
+      </div>
     </div>
   </div>
 </article>

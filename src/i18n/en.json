@@ -51,6 +51,7 @@
     "reserve_button": "Book This Tour",
     "languages_label": "Available in",
     "itinerary_label": "Itinerary",
+    "whatsapp_message_template": "Hello Hamza! I'm interested in booking the {title} ({price}). Is it available?",
     "all_tours_cta": "Book a Tour"
   },
   "about": {
@@ -84,8 +85,8 @@
     "cta_button": "Book My Tour"
   },
   "contact": {
-    "page_title": "Contact",
-    "page_subtitle": "Have questions? I'd love to hear from you.",
+    "page_title": "Contact & Booking",
+    "page_subtitle": "Let's plan your perfect journey in Tlemcen",
     "form_name": "Name",
     "form_email": "Email",
     "form_lang": "Preferred language",
@@ -94,7 +95,6 @@
     "form_success": "Message sent! I'll reply within 24 hours.",
     "whatsapp_label": "WhatsApp",
     "email_label": "Email",
-    "faq_title": "Frequently asked questions",
     "faqs": [
       {
         "q": "What languages do you guide in?",
@@ -119,6 +119,10 @@
       {
         "q": "What is your cancellation policy?",
         "a": "Free cancellation up to 24 hours before the tour. After that, 50% of the amount is retained."
+      },
+      {
+        "q": "Can we customize the itinerary?",
+        "a": "Absolutely! My goal is to make your visit perfect. We can adjust the itinerary based on your specific interests, pace, and preferences."
       }
     ]
   },

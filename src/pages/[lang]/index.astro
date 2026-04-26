@@ -5,6 +5,7 @@ import StatsBar from '../../components/StatsBar.astro';
 import TourSlider from '../../components/TourSlider.astro';
 import TestimonialCard from '../../components/TestimonialCard.astro';
 import PressMention from '../../components/PressMention.astro';
+import InstagramFeed from '../../components/InstagramFeed.astro';
 import CtaBanner from '../../components/CtaBanner.astro';
 import { getCollection } from 'astro:content';
 import { useTranslations, LANGS, type Lang } from '../../utils/i18n';
@@ -77,6 +78,9 @@ const featuredTestimonials = testimonialData.filter(t => t.featured);
       </div>
     </section>
   )}
+
+  <!-- Instagram Feed -->
+  <InstagramFeed lang={lang} />
 
   <!-- CTA Banner -->
   <CtaBanner lang={lang} />

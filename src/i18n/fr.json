@@ -51,6 +51,7 @@
     "reserve_button": "Réserver cette visite",
     "languages_label": "Disponible en",
     "itinerary_label": "Itinéraire",
+    "whatsapp_message_template": "Bonjour Hamza ! Je suis intéressé(e) par la visite {title} ({price}). Est-elle disponible ?",
     "all_tours_cta": "Réserver une visite"
   },
   "about": {
@@ -118,7 +119,11 @@
       },
       {
         "q": "Quelle est votre politique d'annulation ?",
-        "a": "Annulation gratuite jusqu'à 24h avant la visite. Passé ce délai, 50% du montant est retenu."
+        "a": "Annulation gratuite jusqu'à 24 heures avant la visite. Après cela, 50% du montant est retenu."
+      },
+      {
+        "q": "Pouvons-nous personnaliser l'itinéraire ?",
+        "a": "Absolument ! Mon objectif est de rendre votre visite parfaite. Nous pouvons adapter l'itinéraire en fonction de vos intérêts spécifiques, de votre rythme et de vos préférences."
       }
     ]
   },

@@ -2,7 +2,7 @@
 lang: fr
 title: Maghnia - La Porte !
 tagline: "Découvrez l'énergie vibrante de l'ouest. Visite des frontières / Église / Marché local /"
-duration: Demi-journée (3–5h)
+duration: Journée complète (8h)
 difficulty: Facile
 images:
   - /images/shots/shot-13.jpg

@@ -2,7 +2,7 @@
 lang: ar
 title: مغنية - البوابة!
 tagline: "اكتشف الطاقة النابضة بالحياة في الغرب. زيارة الحدود / الكنيسة / السوق المحلي /"
-duration: نصف يوم (3–5 ساعات)
+duration: يوم كامل (8 ساعات)
 difficulty: سهل
 images:
   - /images/shots/shot-13.jpg

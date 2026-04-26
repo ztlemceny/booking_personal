@@ -2,7 +2,7 @@
 lang: en
 title: Maghnia - The Gateway !
 tagline: Experience the vibrant energy of the west. Visit of the Borders / Church / Local Market / 
-duration: Half day (3–5h)
+duration: Full day (8h)
 difficulty: Easy
 images:
   - /images/shots/shot-13.jpg

@@ -94,11 +94,5 @@
     "src": "/images/shots/shot-18.jpg",
     "category": "historical",
     "caption": { "fr": "Zellige et stuc", "en": "Zellige and stucco", "ar": "الزليج والجبص" }
-  },
-  {
-    "id": 22,
-    "src": "/images/shots/shot-22.jpg",
-    "category": "panoramas",
-    "caption": { "fr": "Lumière dorée sur Tlemcen", "en": "Golden light over Tlemcen", "ar": "الضوء الذهبي على تلمسان" }
   }
 ]

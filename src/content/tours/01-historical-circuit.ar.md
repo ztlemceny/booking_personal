@@ -6,7 +6,7 @@ duration: يوم كامل (7–8 ساعات)
 difficulty: متوسط
 images:
   - /images/shots/shot-01.jpg
-  - /images/shots/shot-02.jpg
+  - /images/shots/shot-17.jpg
   - /images/shots/shot-03.jpg
 included:
   - النقل

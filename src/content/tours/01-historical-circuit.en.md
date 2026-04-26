@@ -6,7 +6,7 @@ duration: Full day (7–8h)
 difficulty: Moderate
 images:
   - /images/shots/shot-01.jpg
-  - /images/shots/shot-02.jpg
+  - /images/shots/shot-17.jpg
   - /images/shots/shot-03.jpg
 included:
   - Transport

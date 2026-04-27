@@ -25,7 +25,7 @@ const whatsappUrl = `${SITE.whatsappUrl}?text=${encodeURIComponent(whatsappMessa
 
 <article class="card flex flex-col h-full group">
   <!-- Image -->
-  <a href={tourLink} class={`relative overflow-hidden ${compact ? 'aspect-video' : 'aspect-[4/3]'} watermark block group-hover:opacity-90 transition-opacity`}>
+  <a href={tourLink} class={`relative overflow-hidden ${compact ? 'aspect-[4/3]' : 'aspect-[4/3]'} watermark block group-hover:opacity-90 transition-opacity`}>
     <img
       src={mainImage.startsWith('/') ? `${import.meta.env.BASE_URL}${mainImage}`.replace(/\/+/g, '/') : mainImage}
       alt={title}

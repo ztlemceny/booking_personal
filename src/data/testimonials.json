@@ -13,5 +13,20 @@
       "fr": "Notre guide, Hamza, était très instructif sur tous les sites, mais aussi sur le mode de vie en Algérie. Un excellent anglais, attentif à notre confort et d'une nature douce. Amical et respectueux envers tous ceux qu'il a rencontrés et gentil avec les animaux que nous avons croisés. Sa passion pour l'histoire et la culture algériennes est évidente. Je ne taris pas d'éloges à son égard. Notre chauffeur Kadek était très bien aussi. Le temps imparti pour explorer les sites visités était suffisant. L'une des meilleures excursions que nous ayons faites.",
       "ar": "كان مرشدنا، حمزة، غنيًا بالمعلومات حول جميع المواقع ولكن أيضًا حول أسلوب الحياة في الجزائر. لغته الإنجليزية ممتازة، وكان منتبهًا لراحتنا ولطيفًا. كان ودودًا ومحترمًا مع كل من قابله ولطيفًا مع الحيوانات التي صادفناها. شغفه بالتاريخ والثقافة الجزائرية واضح. لا أستطيع أن أمدحه بما فيه الكفاية. سائقنا قاديك كان جيدًا أيضًا. تم إعطاء المواقع التي تمت زيارتها وقتًا كافيًا لاستكشافها. من أفضل الرحلات التي قمنا بها."
     }
+  },
+  {
+    "id": 2,
+    "name": "Julia",
+    "country": {
+      "en": "France • Verified booking",
+      "fr": "France • Réservation vérifiée",
+      "ar": "فرنسا • حجز مؤكد"
+    },
+    "rating": 5,
+    "text": {
+      "fr": "Hamza est un guide très professionnel et humain, nous avons eu plaisir à découvrir les trésors de Tlemcen et de la région à ses côtés. Passionné et passionnant il sera à l'écoute de vos attentes et vous préparera un programme personnalisé. Une belle rencontre. Investi dans la cause animale et humanitaire, une personne qui a le cœur sur la main. Parle un français impeccable.",
+      "en": "Hamza is a highly professional and warm-hearted guide. We thoroughly enjoyed discovering the treasures of Tlemcen and the surrounding region by his side. Passionate and captivating, he listens carefully to your expectations and tailors a personalised itinerary for you. A wonderful encounter. Committed to animal welfare and humanitarian causes, he is truly a big-hearted person. Speaks impeccable French.",
+      "ar": "حمزة مرشد محترف للغاية وإنسان من طراز رفيع. استمتعنا كثيرًا باكتشاف كنوز تلمسان والمنطقة إلى جانبه. شغوف وجذاب، يصغي إلى توقعاتك ويُعدّ لك برنامجًا شخصيًا مميزًا. لقاء رائع حقًا. ملتزم بقضايا حقوق الحيوانات والأعمال الإنسانية، إنسان كريم بكل ما تحمله الكلمة من معنى. يتحدث الفرنسية بشكل لا تشوبه شائبة."
+    }
   }
 ]

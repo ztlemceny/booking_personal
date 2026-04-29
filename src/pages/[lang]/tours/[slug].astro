@@ -40,7 +40,7 @@ const otherTours = allTours
   .slice(0, 3);
 ---
 
-<BaseLayout title={title} lang={lang}>
+<BaseLayout title={title} lang={lang} image={mainImage} description={tagline}>
 
   <!-- Hero / Header Image -->
   <section class="relative h-[60vh] min-h-[400px] overflow-hidden">
@@ -96,8 +96,12 @@ const otherTours = allTours
           {images.length > 1 && (
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
               {images.slice(1).map((img) => (
-                <div class="rounded-2xl overflow-hidden aspect-video watermark">
-                  <img src={img.startsWith('/') ? `${import.meta.env.BASE_URL}${img}`.replace(/\/+/g, '/') : img} alt={title} class="w-full h-full object-cover" />
+                <div 
+                  class="rounded-2xl overflow-hidden aspect-video watermark gallery-item cursor-pointer group"
+                  data-src={img.startsWith('/') ? `${import.meta.env.BASE_URL}${img}`.replace(/\/+/g, '/') : img}
+                  data-caption={title}
+                >
+                  <img src={img.startsWith('/') ? `${import.meta.env.BASE_URL}${img}`.replace(/\/+/g, '/') : img} alt={title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                 </div>
               ))}
             </div>
@@ -270,6 +274,19 @@ const otherTours = allTours
     </div>
   </section>
 
+  <!-- Lightbox -->
+  <div id="lightbox" class="fixed inset-0 z-[60] bg-black/90 hidden items-center justify-center p-4">
+    <button id="lightbox-close" class="absolute top-4 end-4 text-white/70 hover:text-white transition-colors">
+      <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+      </svg>
+    </button>
+    <div class="watermark">
+      <img id="lightbox-img" src="" alt="" class="max-w-full max-h-[85vh] object-contain rounded-lg shadow-2xl" />
+    </div>
+    <p id="lightbox-caption" class="absolute bottom-6 left-1/2 -translate-x-1/2 text-white/80 text-sm text-center"></p>
+  </div>
+
 </BaseLayout>
 
 <script define:vars={{ 
@@ -279,6 +296,7 @@ const otherTours = allTours
   messageTemplate: t.tours.booking_whatsapp_message 
 }}>
   document.addEventListener('astro:page-load', () => {
+    // Form logic
     const form = document.getElementById('booking-form');
     if (form) {
       form.addEventListener('submit', (e) => {
@@ -301,5 +319,39 @@ const otherTours = allTours
         window.open(url, '_blank', 'noopener,noreferrer');
       });
     }
+
+    // Lightbox logic
+    const items = document.querySelectorAll('.gallery-item');
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const lightboxCaption = document.getElementById('lightbox-caption');
+    const lightboxClose = document.getElementById('lightbox-close');
+
+    items.forEach(item => {
+      item.addEventListener('click', () => {
+        if (!lightbox || !lightboxImg || !lightboxCaption) return;
+        lightboxImg.src = item.dataset.src;
+        lightboxCaption.textContent = item.dataset.caption;
+        lightbox.classList.remove('hidden');
+        lightbox.classList.add('flex');
+        document.body.style.overflow = 'hidden';
+      });
+    });
+
+    const closeLightbox = () => {
+      if (!lightbox) return;
+      lightbox.classList.add('hidden');
+      lightbox.classList.remove('flex');
+      document.body.style.overflow = '';
+      if (lightboxImg) lightboxImg.src = '';
+    };
+
+    lightboxClose?.addEventListener('click', closeLightbox);
+    lightbox?.addEventListener('click', e => {
+      if (e.target === lightbox) closeLightbox();
+    });
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape') closeLightbox();
+    });
   });
 </script>

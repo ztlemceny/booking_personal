@@ -139,12 +139,13 @@ const otherTours = allTours
             
             <!-- Details Card -->
             <div class="bg-white rounded-3xl p-6 border border-stone-100 shadow-sm space-y-6">
-              <div class="flex items-center justify-between">
+              <div class="flex items-center justify-between mb-2">
                 <div>
                   <p class="text-xs text-stone-400 uppercase tracking-widest mb-1">{t.tours.price_label}</p>
                   <p class="text-3xl font-bold text-stone-900">{price || t.tours.price_value}</p>
                 </div>
               </div>
+              <p class="text-[11px] text-stone-400 italic mb-4 leading-tight">{t.tours.price_disclaimer}</p>
 
               <hr class="border-stone-100" />
 

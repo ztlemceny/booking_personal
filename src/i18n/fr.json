@@ -52,7 +52,25 @@
     "languages_label": "Disponible en",
     "itinerary_label": "Itinéraire",
     "whatsapp_message_template": "Bonjour Hamza ! Je suis intéressé(e) par la visite {title} ({price}). Est-elle disponible ?",
-    "all_tours_cta": "Réserver une visite"
+    "all_tours_cta": "Réserver une visite",
+    "booking_date_label": "Sélectionner la date",
+    "booking_guests_label": "Nombre de participants",
+    "booking_whatsapp_message": "Bonjour Hamza ! Je souhaite réserver la visite {title} ({price}) pour {guests} personnes le {date}. Est-elle disponible ?",
+    "faq_title": "Questions Fréquentes",
+    "faqs": [
+      {
+        "q": "Cette visite est-elle adaptée aux enfants ?",
+        "a": "Oui, nos visites peuvent être adaptées aux familles. Veuillez nous indiquer l'âge de vos enfants lors de la réservation afin que nous puissions ajuster le rythme si nécessaire."
+      },
+      {
+        "q": "Que dois-je porter ?",
+        "a": "Des chaussures de marche confortables sont indispensables. Un chapeau et de la crème solaire sont recommandés en été. Pour les sites religieux, prévoyez une tenue modeste couvrant les épaules et les genoux."
+      },
+      {
+        "q": "Puis-je personnaliser l'itinéraire ?",
+        "a": "Absolument ! Étant donné que nos visites sont privées, nous pouvons adapter l'expérience en fonction de vos intérêts et préférences spécifiques."
+      }
+    ]
   },
   "about": {
     "page_title": "À propos de Hamza",

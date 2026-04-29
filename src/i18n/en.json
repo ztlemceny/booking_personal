@@ -52,7 +52,25 @@
     "languages_label": "Available in",
     "itinerary_label": "Itinerary",
     "whatsapp_message_template": "Hello Hamza! I'm interested in booking the {title} ({price}). Is it available?",
-    "all_tours_cta": "Book a Tour"
+    "all_tours_cta": "Book a Tour",
+    "booking_date_label": "Select Date",
+    "booking_guests_label": "Number of Guests",
+    "booking_whatsapp_message": "Hello Hamza! I'm interested in booking the {title} ({price}) for {guests} guests on {date}. Is it available?",
+    "faq_title": "Frequently Asked Questions",
+    "faqs": [
+      {
+        "q": "Is this tour suitable for children?",
+        "a": "Yes, our tours can be adapted for families. Please let us know the ages of your children when booking so we can adjust the pace if necessary."
+      },
+      {
+        "q": "What should I wear?",
+        "a": "Comfortable walking shoes are a must. A hat and sunscreen are recommended in summer. For religious sites, please plan on wearing modest clothing that covers shoulders and knees."
+      },
+      {
+        "q": "Can I customize the itinerary?",
+        "a": "Absolutely! Since our tours are private, we can tailor the experience based on your specific interests and preferences."
+      }
+    ]
   },
   "about": {
     "page_title": "About Hamza",

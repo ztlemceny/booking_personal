@@ -25,4 +25,16 @@ const about = defineCollection({
   }),
 });
 
-export const collections = { tours, about };
+const blog = defineCollection({
+  type: 'content',
+  schema: z.object({
+    lang: z.enum(['fr', 'en', 'ar']),
+    title: z.string(),
+    excerpt: z.string(),
+    image: z.string(),
+    date: z.string(),
+    author: z.string().optional(),
+  }),
+});
+
+export const collections = { tours, about, blog };

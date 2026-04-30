@@ -3,6 +3,7 @@
     "home": "Accueil",
     "tours": "Visites",
     "about": "À propos",
+    "blog": "Blog",
     "gallery": "Galerie",
     "testimonials": "Avis",
     "contact": "Contact",
@@ -145,6 +146,11 @@
         "a": "Absolument ! Mon objectif est de rendre votre visite parfaite. Nous pouvons adapter l'itinéraire en fonction de vos intérêts spécifiques, de votre rythme et de vos préférences."
       }
     ]
+  },
+  "blog": {
+    "page_title": "Blog et Histoire",
+    "page_subtitle": "Plongez dans les récits des sites emblématiques de Tlemcen.",
+    "read_more": "Lire la suite"
   },
   "footer": {
     "tagline": "Tlemcen, Algérie",

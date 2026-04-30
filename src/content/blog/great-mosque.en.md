@@ -13,7 +13,7 @@ Standing in the heart of the ancient medina, the Great Mosque of Tlemcen (Djamaa
 
 When the Almoravids, a Berber dynasty from the Sahara, expanded their empire across North Africa and Al-Andalus, they brought with them a distinct architectural style characterized by austerity, strength, and monumental scale. The Great Mosque of Tlemcen was built during this period, serving as the central gathering place for the city's growing population.
 
-Later, the mosque was expanded and embellished by the Zianids, who added the beautiful minaret, and by the Merinids, who contributed to its intricate decorations. It is a building that has grown organically with the city, bearing the marks of multiple dynasties.
+Later, the mosque was expanded and embellished by the Zianids, who added the beautiful minaret,and contributed to its intricate decorations. It is a building that has grown organically with the city, bearing the marks of multiple dynasties.
 
 ### Architectural Features
 

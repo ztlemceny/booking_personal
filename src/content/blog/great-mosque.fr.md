@@ -13,7 +13,7 @@ Située au cœur de l'ancienne médina, la Grande Mosquée de Tlemcen (Djamaa El
 
 Lorsque les Almoravides, une dynastie berbère originaire du Sahara, ont étendu leur empire à travers l'Afrique du Nord et Al-Andalus, ils ont apporté avec eux un style architectural distinct caractérisé par l'austérité, la force et une échelle monumentale. La Grande Mosquée de Tlemcen a été construite à cette époque, servant de lieu de rassemblement central pour la population grandissante de la ville.
 
-Plus tard, la mosquée a été agrandie et embellie par les Zianides, qui ont ajouté le magnifique minaret, et par les Mérinides, qui ont contribué à ses décorations complexes. C'est un bâtiment qui s'est développé organiquement avec la ville, portant les marques de multiples dynasties.
+Plus tard, la mosquée a été agrandie et embellie par les Zianides, qui ont ajouté le magnifique minaret, et qui ont contribué à ses décorations complexes. C'est un bâtiment qui s'est développé organiquement avec la ville, portant les marques de multiples dynasties.
 
 ### Caractéristiques architecturales
 

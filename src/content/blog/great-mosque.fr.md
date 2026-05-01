@@ -2,7 +2,7 @@
 lang: fr
 title: "La Grande Mosquée de Tlemcen : Un chef-d'œuvre almoravide"
 excerpt: "Explorez la brillance architecturale et l'importance spirituelle de l'une des mosquées almoravides les plus anciennes et les mieux préservées au monde."
-image: "/images/shots/shot-17.jpg"
+image: "/images/shots/shot-27.jpg"
 date: "12 Octobre 2025"
 author: "Hamza"
 ---

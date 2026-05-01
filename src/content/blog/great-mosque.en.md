@@ -2,7 +2,7 @@
 lang: en
 title: "The Great Mosque of Tlemcen: An Almoravid Masterpiece"
 excerpt: "Explore the architectural brilliance and spiritual significance of one of the oldest and best-preserved Almoravid mosques in the world."
-image: "/images/shots/shot-17.jpg"
+image: "/images/shots/shot-27.jpg"
 date: "October 12, 2025"
 author: "Hamza"
 ---

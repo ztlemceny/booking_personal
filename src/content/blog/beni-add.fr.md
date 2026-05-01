@@ -2,7 +2,7 @@
 lang: fr
 title: "Les Grottes de Beni Add : Merveilles souterraines"
 excerpt: "Descendez dans les profondeurs fraîches des grottes de Beni Add, une ancienne merveille naturelle abritant des formations spectaculaires de stalactites et de stalagmites."
-image: "/images/shots/shot-17.jpg"
+image: "/images/shots/shot-26.jpg"
 date: "18 Octobre 2025"
 author: "Hamza"
 ---

@@ -2,7 +2,7 @@
 lang: en
 title: "The Beni Add Caves: Subterranean Wonders"
 excerpt: "Descend into the cool depths of the Beni Add Caves, an ancient natural marvel featuring breathtaking stalactite and stalagmite formations."
-image: "/images/shots/shot-17.jpg"
+image: "/images/shots/shot-26.jpg"
 date: "October 18, 2025"
 author: "Hamza"
 ---

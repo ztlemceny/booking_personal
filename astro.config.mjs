@@ -2,8 +2,7 @@ import { defineConfig } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
 
 export default defineConfig({
-  site: 'https://ztlemceny.github.io',
-  base: '/booking_personal',
+  site: 'https://ztlemceny.com',
   integrations: [tailwind()],
   output: 'static',
 });

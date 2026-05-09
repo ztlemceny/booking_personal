@@ -49,7 +49,12 @@
     "not_included_label": "Not included",
     "price_label": "Price",
     "price_value": "Contact for pricing",
-    "price_disclaimer": "* Pricing may vary based on group size and vehicle requirements.",
+    "price_disclaimer": "* Pricing adjusts automatically based on group size and vehicle requirements.",
+    "vehicle_label": "Transport",
+    "vehicle_sedan": "Standard Sedan",
+    "vehicle_van": "Comfort Van",
+    "vehicle_minibus": "Minibus",
+    "per_group": "per group",
     "reserve_button": "Book This Tour",
     "languages_label": "Available in",
     "itinerary_label": "Itinerary",
@@ -57,7 +62,7 @@
     "all_tours_cta": "Book a Tour",
     "booking_date_label": "Select Date",
     "booking_guests_label": "Number of Guests",
-    "booking_whatsapp_message": "Hello Hamza! I'm interested in booking the {title} ({price}) for {guests} guests on {date}. Is it available?",
+    "booking_whatsapp_message": "Hello Hamza! I'm interested in booking the {title} for {guests} guests on {date}. Total price: {price}. Is it available?",
     "faq_title": "Frequently Asked Questions",
     "faqs": [
       {

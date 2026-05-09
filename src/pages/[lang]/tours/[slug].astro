@@ -2,7 +2,7 @@
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { useTranslations, type Lang } from '../../../utils/i18n';
-import { SITE } from '../../../config';
+import { SITE, PRICING } from '../../../config';
 
 export async function getStaticPaths() {
   const tours = await getCollection('tours');
@@ -142,14 +142,36 @@ const otherTours = allTours
           <div class="sticky top-24 space-y-6">
             
             <!-- Details Card -->
-            <div class="bg-white rounded-3xl p-6 border border-stone-100 shadow-sm space-y-6">
-              <div class="flex items-center justify-between mb-2">
+            <div class="bg-white rounded-3xl p-6 border border-stone-100 shadow-sm space-y-6 overflow-hidden relative">
+              <!-- Premium Accent -->
+              <div class="absolute top-0 right-0 w-32 h-32 bg-terracotta/5 rounded-full -mr-16 -mt-16 blur-2xl"></div>
+              
+              <div class="flex items-center justify-between mb-2 relative z-10">
                 <div>
                   <p class="text-xs text-stone-400 uppercase tracking-widest mb-1">{t.tours.price_label}</p>
-                  <p class="text-3xl font-bold text-stone-900">{price || t.tours.price_value}</p>
+                  <div class="flex items-baseline gap-1">
+                    <p id="dynamic-price" class="text-3xl font-bold text-stone-900 transition-all duration-300">{price || t.tours.price_value}</p>
+                    <span class="text-stone-400 text-xs">{t.tours.per_group}</span>
+                  </div>
                 </div>
               </div>
               <p class="text-[11px] text-stone-400 italic mb-4 leading-tight">{t.tours.price_disclaimer}</p>
+
+              <!-- Vehicle Indicator -->
+              <div id="vehicle-indicator" class="flex items-center gap-3 p-3 bg-stone-50 rounded-2xl border border-stone-100 hidden">
+                <div class="p-2 bg-white rounded-xl shadow-sm text-terracotta">
+                  <svg id="vehicle-icon-sedan" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1v-2a1 1 0 011-1h8z" />
+                  </svg>
+                  <svg id="vehicle-icon-van" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
+                  </svg>
+                </div>
+                <div>
+                  <p class="text-[10px] text-stone-400 uppercase tracking-widest leading-none mb-1">{t.tours.vehicle_label}</p>
+                  <p id="vehicle-name" class="text-sm font-bold text-stone-700 leading-none capitalize">{t.tours.vehicle_sedan}</p>
+                </div>
+              </div>
 
               <hr class="border-stone-100" />
 
@@ -232,13 +254,27 @@ const otherTours = allTours
               </form>
             </div>
 
+            <!-- Lonely Planet Badge -->
+            <div class="bg-sand-50 rounded-3xl p-6 border border-sand-200 flex items-center gap-4 group hover:bg-white transition-all duration-500">
+              <div class="w-12 h-12 bg-white rounded-2xl flex items-center justify-center shadow-sm group-hover:scale-110 transition-transform">
+                <svg class="w-6 h-6 text-terracotta" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14.5v-9l6 4.5-6 4.5z"/>
+                </svg>
+              </div>
+              <div>
+                <p class="text-[10px] text-terracotta font-bold uppercase tracking-widest leading-none mb-1">{t.about.lp_label}</p>
+                <p class="text-sm font-bold text-stone-800 leading-tight">{t.about.lp_value}</p>
+              </div>
+            </div>
+
             <!-- Help card -->
-            <div class="bg-olive-dark rounded-3xl p-6 text-white">
-              <h3 class="font-heading text-lg font-bold mb-2">Need Help?</h3>
-              <p class="text-white/70 text-sm mb-4 leading-relaxed">
+            <div class="bg-stone-900 rounded-3xl p-6 text-white relative overflow-hidden">
+              <div class="absolute top-0 right-0 w-24 h-24 bg-terracotta/10 rounded-full -mr-12 -mt-12 blur-xl"></div>
+              <h3 class="font-heading text-lg font-bold mb-2 relative z-10">Need Help?</h3>
+              <p class="text-stone-400 text-sm mb-4 leading-relaxed relative z-10">
                 Have questions about this tour or want to customize your experience? Contact me directly.
               </p>
-              <a href={`mailto:${SITE.email}`} class="text-gold font-bold hover:underline">
+              <a href={`mailto:${SITE.email}`} class="text-terracotta font-bold hover:underline relative z-10">
                 {SITE.email}
               </a>
             </div>
@@ -292,26 +328,89 @@ const otherTours = allTours
 <script define:vars={{ 
   whatsappBaseUrl: SITE.whatsappUrl, 
   title: title, 
-  price: price || t.tours.price_value, 
-  messageTemplate: t.tours.booking_whatsapp_message 
+  basePriceStr: price || t.tours.price_value, 
+  pricingTiers: PRICING.tiers,
+  messageTemplate: t.tours.booking_whatsapp_message,
+  labels: {
+    sedan: t.tours.vehicle_sedan,
+    van: t.tours.vehicle_van,
+    minibus: t.tours.vehicle_minibus
+  }
 }}>
   document.addEventListener('astro:page-load', () => {
     // Form logic
     const form = document.getElementById('booking-form');
     if (form) {
+      const guestsInput = document.getElementById('booking-guests');
+      const priceDisplay = document.getElementById('dynamic-price');
+      const vehicleIndicator = document.getElementById('vehicle-indicator');
+      const vehicleName = document.getElementById('vehicle-name');
+      const iconSedan = document.getElementById('vehicle-icon-sedan');
+      const iconVan = document.getElementById('vehicle-icon-van');
+
+      const updatePrice = () => {
+        if (!guestsInput || !priceDisplay) return;
+        const count = guestsInput.value === '6+' ? 7 : parseInt(guestsInput.value);
+        const baseNum = parseInt(basePriceStr.replace(/[^0-9]/g, '')) || 0;
+        
+        let extra = 0;
+        let vehicle = 'sedan';
+        
+        if (count <= pricingTiers.base.maxGuests) {
+          extra = pricingTiers.base.extra;
+          vehicle = pricingTiers.base.vehicle;
+        } else if (count <= pricingTiers.small.maxGuests) {
+          extra = pricingTiers.small.extra;
+          vehicle = pricingTiers.small.vehicle;
+        } else if (count <= pricingTiers.van.maxGuests) {
+          extra = pricingTiers.van.extra;
+          vehicle = pricingTiers.van.vehicle;
+        } else {
+          extra = pricingTiers.large.extra;
+          vehicle = pricingTiers.large.vehicle;
+        }
+
+        const total = baseNum + extra;
+        const formattedPrice = basePriceStr.includes('€') ? `${total} €` : `${total}`;
+        
+        priceDisplay.textContent = formattedPrice;
+        
+        // Update vehicle
+        if (vehicleIndicator && vehicleName) {
+          vehicleIndicator.classList.remove('hidden');
+          vehicleName.textContent = labels[vehicle] || vehicle;
+          
+          if (iconSedan && iconVan) {
+            if (vehicle === 'sedan') {
+              iconSedan.classList.remove('hidden');
+              iconVan.classList.add('hidden');
+            } else {
+              iconSedan.classList.add('hidden');
+              iconVan.classList.remove('hidden');
+            }
+          }
+        }
+
+        return formattedPrice;
+      };
+
+      guestsInput?.addEventListener('change', updatePrice);
+      // Initial call
+      updatePrice();
+
       form.addEventListener('submit', (e) => {
         e.preventDefault();
         const dateInput = document.getElementById('booking-date');
-        const guestsInput = document.getElementById('booking-guests');
         
         if (!dateInput || !guestsInput) return;
 
         const date = dateInput.value;
         const guests = guestsInput.value;
+        const currentPrice = priceDisplay.textContent;
         
         const message = messageTemplate
           .replace('{title}', title)
-          .replace('{price}', price)
+          .replace('{price}', currentPrice)
           .replace('{date}', date)
           .replace('{guests}', guests);
           

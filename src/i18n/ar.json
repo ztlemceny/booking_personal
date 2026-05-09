@@ -49,7 +49,12 @@
     "not_included_label": "لا يشمل",
     "price_label": "السعر",
     "price_value": "تواصل للاستفسار",
-    "price_disclaimer": "* قد تختلف الأسعار بناءً على حجم المجموعة ونوع المركبة المطلوبة.",
+    "price_disclaimer": "* يتم تعديل السعر تلقائيًا حسب حجم المجموعة ونوع المركبة المطلوبة.",
+    "vehicle_label": "وسيلة النقل",
+    "vehicle_sedan": "سيارة سياحية",
+    "vehicle_van": "حافلة صغيرة (Van)",
+    "vehicle_minibus": "حافلة",
+    "per_group": "للمجموعة",
     "reserve_button": "احجز هذه الجولة",
     "languages_label": "متاح بـ",
     "itinerary_label": "المسار",
@@ -57,7 +62,7 @@
     "all_tours_cta": "احجز جولة",
     "booking_date_label": "اختر التاريخ",
     "booking_guests_label": "عدد الأشخاص",
-    "booking_whatsapp_message": "مرحباً حمزة! أود حجز جولة {title} ({price}) لـ {guests} أشخاص بتاريخ {date}. هل هي متوفرة؟",
+    "booking_whatsapp_message": "مرحباً حمزة! أود حجز جولة {title} لـ {guests} أشخاص بتاريخ {date}. السعر الإجمالي: {price}. هل هي متوفرة؟",
     "faq_title": "الأسئلة الشائعة",
     "faqs": [
       {

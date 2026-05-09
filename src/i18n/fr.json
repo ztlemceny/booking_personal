@@ -49,7 +49,12 @@
     "not_included_label": "Non inclus",
     "price_label": "Tarif",
     "price_value": "Sur demande",
-    "price_disclaimer": "* Les tarifs peuvent varier en fonction de la taille du groupe et du véhicule requis.",
+    "price_disclaimer": "* Le tarif s'ajuste automatiquement selon la taille du groupe et le véhicule requis.",
+    "vehicle_label": "Transport",
+    "vehicle_sedan": "Berline Standard",
+    "vehicle_van": "Van Confort",
+    "vehicle_minibus": "Minibus",
+    "per_group": "par groupe",
     "reserve_button": "Réserver cette visite",
     "languages_label": "Disponible en",
     "itinerary_label": "Itinéraire",
@@ -57,7 +62,7 @@
     "all_tours_cta": "Réserver une visite",
     "booking_date_label": "Sélectionner la date",
     "booking_guests_label": "Nombre de participants",
-    "booking_whatsapp_message": "Bonjour Hamza ! Je souhaite réserver la visite {title} ({price}) pour {guests} personnes le {date}. Est-elle disponible ?",
+    "booking_whatsapp_message": "Bonjour Hamza ! Je souhaite réserver la visite {title} pour {guests} personnes le {date}. Prix total : {price}. Est-elle disponible ?",
     "faq_title": "Questions Fréquentes",
     "faqs": [
       {

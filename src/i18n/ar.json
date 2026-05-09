@@ -96,12 +96,7 @@
   },
   "gallery": {
     "page_title": "معرض الصور",
-    "page_subtitle": "صور تحكي ما تعجز عنه الكلمات.",
-    "filter_all": "الكل",
-    "filter_historical": "المواقع التاريخية",
-    "filter_nature": "الطبيعة",
-    "filter_cultural": "الحياة الثقافية",
-    "filter_panoramas": "البانوراما"
+    "page_subtitle": "صور تحكي ما تعجز عنه الكلمات."
   },
   "testimonials": {
     "page_title": "آراء الزوار",

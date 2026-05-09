@@ -96,12 +96,7 @@
   },
   "gallery": {
     "page_title": "Gallery",
-    "page_subtitle": "Images that tell what words cannot.",
-    "filter_all": "All",
-    "filter_historical": "Historical sites",
-    "filter_nature": "Nature",
-    "filter_cultural": "Cultural life",
-    "filter_panoramas": "Panoramas"
+    "page_subtitle": "Images that tell what words cannot."
   },
   "testimonials": {
     "page_title": "Guest Reviews",

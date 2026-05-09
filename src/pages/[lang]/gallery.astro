@@ -29,27 +29,7 @@ const t = useTranslations(lang);
   <section class="py-16 bg-sand-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-      <!-- Filter tabs -->
-      <div class="flex flex-wrap gap-2 justify-center mb-10" id="gallery-filters">
-        {[
-          { key: 'all', label: t.gallery.filter_all },
-          { key: 'historical', label: t.gallery.filter_historical },
-          { key: 'nature', label: t.gallery.filter_nature },
-          { key: 'cultural', label: t.gallery.filter_cultural },
-          { key: 'panoramas', label: t.gallery.filter_panoramas },
-        ].map(filter => (
-          <button
-            data-filter={filter.key}
-            class={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 filter-btn ${
-              filter.key === 'all'
-                ? 'bg-terracotta text-white shadow-sm'
-                : 'bg-white text-stone-600 border border-stone-200 hover:border-terracotta hover:text-terracotta'
-            }`}
-          >
-            {filter.label}
-          </button>
-        ))}
-      </div>
+
 
       <!-- Photo grid -->
       <div class="columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-4 space-y-4" id="gallery-grid">
@@ -59,7 +39,6 @@ const t = useTranslations(lang);
           return (
             <div
               class="gallery-item break-inside-avoid overflow-hidden rounded-xl cursor-pointer group"
-              data-category={photo.category}
               data-src={fullSrc}
               data-caption={caption}
             >
@@ -99,34 +78,8 @@ const t = useTranslations(lang);
 </BaseLayout>
 
 <script>
-  // Filter logic
-  const filterBtns = document.querySelectorAll<HTMLButtonElement>('.filter-btn');
+  // Lightbox logic
   const items = document.querySelectorAll<HTMLElement>('.gallery-item');
-
-  filterBtns.forEach(btn => {
-    btn.addEventListener('click', () => {
-      const filter = btn.dataset.filter ?? 'all';
-
-      // Update active button
-      filterBtns.forEach(b => {
-        b.className = b.className
-          .replace('bg-terracotta text-white shadow-sm', '')
-          .replace('bg-white text-stone-600 border border-stone-200 hover:border-terracotta hover:text-terracotta', '')
-          .trim();
-        b.classList.add(
-          ...(b === btn
-            ? ['bg-terracotta', 'text-white', 'shadow-sm']
-            : ['bg-white', 'text-stone-600', 'border', 'border-stone-200', 'hover:border-terracotta', 'hover:text-terracotta'])
-        );
-      });
-
-      // Show/hide items
-      items.forEach(item => {
-        const show = filter === 'all' || item.dataset.category === filter;
-        item.style.display = show ? '' : 'none';
-      });
-    });
-  });
 
   // Lightbox logic
   const lightbox = document.getElementById('lightbox');

@@ -96,12 +96,7 @@
   },
   "gallery": {
     "page_title": "Galerie",
-    "page_subtitle": "Des images qui racontent ce que les mots ne peuvent pas dire.",
-    "filter_all": "Tout",
-    "filter_historical": "Sites historiques",
-    "filter_nature": "Nature",
-    "filter_cultural": "Vie culturelle",
-    "filter_panoramas": "Panoramas"
+    "page_subtitle": "Des images qui racontent ce que les mots ne peuvent pas dire."
   },
   "testimonials": {
     "page_title": "Avis de voyageurs",

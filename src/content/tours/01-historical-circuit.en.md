@@ -10,7 +10,8 @@ images:
   - /images/shots/shot-03.jpg
 included:
   - Transport
-  - Entry fees to all sites
+  - Entry tickets to all sites
+  - Professional Guide
 not_included:
   - Lunch
   - Personal expenses

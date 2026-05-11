@@ -9,6 +9,7 @@ images:
   - /images/shots/shot-14.jpg
 included:
   - Transport
+  - Guide professionnel
 not_included:
   - Déjeuner
   - Dépenses personnelles

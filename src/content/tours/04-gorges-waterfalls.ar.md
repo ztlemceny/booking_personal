@@ -9,6 +9,7 @@ images:
   - /images/shots/shot-08.jpg
 included:
   - النقل
+  - دليل سياحي محترف
 not_included:
   - الغداء
   - المصاريف الشخصية

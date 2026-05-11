@@ -9,6 +9,7 @@ images:
   - /images/shots/shot-16.jpg
 included:
   - Transport
+  - Guide professionnel
 not_included:
   - Déjeuner
   - Achats dans les souks

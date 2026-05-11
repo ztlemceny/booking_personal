@@ -9,7 +9,8 @@ images:
   - /images/shots/shot-05.jpg
 included:
   - النقل
-  - رسوم الدخول
+  - تذاكر الدخول
+  - دليل سياحي محترف
 not_included:
   - الغداء
   - المصاريف الشخصية

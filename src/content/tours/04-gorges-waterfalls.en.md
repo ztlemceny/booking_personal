@@ -9,6 +9,7 @@ images:
   - /images/shots/shot-08.jpg
 included:
   - Transport
+  - Professional Guide
 not_included:
   - Lunch
   - Personal expenses

@@ -9,6 +9,7 @@ images:
   - /images/shots/shot-16.jpg
 included:
   - النقل
+  - دليل سياحي محترف
 not_included:
   - الغداء
   - المشتريات من السوق

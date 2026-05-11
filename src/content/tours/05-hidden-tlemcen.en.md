@@ -9,6 +9,7 @@ images:
   - /images/shots/shot-16.jpg
 included:
   - Transport
+  - Professional Guide
 not_included:
   - Lunch
   - Souk purchases

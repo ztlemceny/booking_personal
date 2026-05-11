@@ -9,7 +9,8 @@ images:
   - /images/shots/shot-05.jpg
 included:
   - Transport
-  - Droits d'entrée
+  - Tickets d'entrée
+  - Guide professionnel
 not_included:
   - Déjeuner
   - Dépenses personnelles

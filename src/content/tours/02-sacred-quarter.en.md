@@ -9,7 +9,8 @@ images:
   - /images/shots/shot-05.jpg
 included:
   - Transport
-  - Entry fees
+  - Entry tickets
+  - Professional Guide
 not_included:
   - Lunch
   - Personal expenses

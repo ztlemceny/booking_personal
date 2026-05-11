@@ -7,6 +7,7 @@
     "gallery": "معرض الصور",
     "testimonials": "آراء الزوار",
     "contact": "تواصل معنا",
+    "custom_itinerary": "جولة خاصة",
     "reserve": "احجز الآن"
   },
   "hero": {
@@ -175,5 +176,30 @@
     "rating_2": "2 - ضعيف",
     "rating_1": "1 - سيء",
     "tour_other": "جولة أخرى / مخصصة"
+  },
+  "custom_itinerary": {
+    "page_title": "مسار على المقاس",
+    "page_subtitle": "صمم رحلتك الخاصة. اختر الأماكن التي تلهمك، ولنبتكر معاً تجربة فريدة لا تُنسى.",
+    "form_title": "صمم جولتك",
+    "form_date": "التاريخ المخطط له",
+    "form_guests": "عدد الأشخاص",
+    "form_places": "الأماكن المراد زيارتها",
+    "form_message": "طلبات خاصة / اهتمامات",
+    "form_submit": "إرسال للمراجعة",
+    "poi_historical": "تاريخ وملوك",
+    "poi_nature": "طبيعة ومناظر",
+    "poi_culture": "ثقافة وتقاليد",
+    "poi_palace": "قصر المشور",
+    "poi_mosque": "الجامع الكبير",
+    "poi_sidi_boumediene": "مجمع سيدي بومدين",
+    "poi_mansourah": "أطلال منصورة",
+    "poi_caves": "مغارات بني عاد",
+    "poi_waterfall": "شلال لوريط",
+    "poi_nedroma": "ندرومة (المدينة العتيقة)",
+    "poi_maghnia": "مغنية (المنطقة الحدودية)",
+    "poi_agadir": "أطلال أكادير",
+    "poi_medina": "المدينة والأسواق",
+    "poi_artisan": "ورشات الحرفيين",
+    "whatsapp_message": "مرحباً حمزة! لقد صممت مساراً مخصصاً لـ {guests} أشخاص بتاريخ {date}. أود زيارة: {places}. ملاحظات إضافية: {message}"
   }
 }

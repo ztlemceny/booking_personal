@@ -7,6 +7,7 @@
     "gallery": "Gallery",
     "testimonials": "Reviews",
     "contact": "Contact",
+    "custom_itinerary": "Custom Tour",
     "reserve": "Book Now"
   },
   "hero": {
@@ -174,5 +175,30 @@
     "rating_2": "2 - Poor",
     "rating_1": "1 - Terrible",
     "tour_other": "Other / Custom Tour"
+  },
+  "custom_itinerary": {
+    "page_title": "Custom Itinerary",
+    "page_subtitle": "Design your own journey. Choose the places that inspire you, and let's create a unique experience together.",
+    "form_title": "Build Your Tour",
+    "form_date": "Planned Date",
+    "form_guests": "Number of Guests",
+    "form_places": "Select Places to Visit",
+    "form_message": "Special Requests / Interests",
+    "form_submit": "Submit for Review",
+    "poi_historical": "Historical & Royal",
+    "poi_nature": "Nature & Landscapes",
+    "poi_culture": "Culture & Traditions",
+    "poi_palace": "The Mechouar Palace",
+    "poi_mosque": "The Great Mosque",
+    "poi_sidi_boumediene": "Sidi Boumediene Complex",
+    "poi_mansourah": "Mansourah Ruins",
+    "poi_caves": "Beni Add Caves",
+    "poi_waterfall": "El Ourit Waterfall",
+    "poi_nedroma": "Nedroma (Medieval City)",
+    "poi_maghnia": "Maghnia (Frontier Town)",
+    "poi_agadir": "Agadir Ruins",
+    "poi_medina": "Medina & Souks",
+    "poi_artisan": "Artisan Workshops",
+    "whatsapp_message": "Hello Hamza! I've created a custom itinerary for {guests} guests on {date}. I'd like to visit: {places}. Additional notes: {message}"
   }
 }

@@ -7,6 +7,7 @@
     "gallery": "Galerie",
     "testimonials": "Avis",
     "contact": "Contact",
+    "custom_itinerary": "Sur mesure",
     "reserve": "Réserver maintenant"
   },
   "hero": {
@@ -175,5 +176,30 @@
     "rating_2": "2 - Décevant",
     "rating_1": "1 - Terrible",
     "tour_other": "Autre / Sur mesure"
+  },
+  "custom_itinerary": {
+    "page_title": "Itinéraire Sur Mesure",
+    "page_subtitle": "Concevez votre propre voyage. Choisissez les lieux qui vous inspirent, et créons ensemble une expérience unique.",
+    "form_title": "Créez votre visite",
+    "form_date": "Date prévue",
+    "form_guests": "Nombre de participants",
+    "form_places": "Lieux à visiter",
+    "form_message": "Demandes spéciales / Intérêts",
+    "form_submit": "Soumettre pour révision",
+    "poi_historical": "Historique & Royal",
+    "poi_nature": "Nature & Paysages",
+    "poi_culture": "Culture & Traditions",
+    "poi_palace": "Le Palais du Méchouar",
+    "poi_mosque": "La Grande Mosquée",
+    "poi_sidi_boumediene": "Complexe Sidi Boumediene",
+    "poi_mansourah": "Ruines de Mansourah",
+    "poi_caves": "Grottes de Beni Add",
+    "poi_waterfall": "Cascade d'El Ourit",
+    "poi_nedroma": "Nedroma (Cité médiévale)",
+    "poi_maghnia": "Maghnia (Région frontalière)",
+    "poi_agadir": "Ruines d'Agadir",
+    "poi_medina": "Médina & Souks",
+    "poi_artisan": "Ateliers d'artisans",
+    "whatsapp_message": "Bonjour Hamza ! J'ai créé un itinéraire sur mesure pour {guests} personnes le {date}. J'aimerais visiter : {places}. Notes additionnelles : {message}"
   }
 }

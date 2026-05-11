@@ -63,8 +63,7 @@
     "booking_phone": "Phone Number",
     "booking_date_label": "Select Date",
     "booking_guests_label": "Number of Guests",
-    "booking_email_subject": "Booking Request: {title}",
-    "booking_email_body": "Hello Hamza!\n\nI would like to book the {title} tour.\n\nDetails:\n- Name: {name}\n- Email: {email}\n- Phone: {phone}\n- Date: {date}\n- Guests: {guests}\n- Total Price: {price}\n\nIs it available?",
+    "booking_whatsapp_message": "Hello Hamza!\n\nI would like to book the {title} tour.\n\nDetails:\n- Name: {name}\n- Email: {email}\n- Phone: {phone}\n- Date: {date}\n- Guests: {guests}\n- Total Price: {price}\n\nIs it available?",
     "all_tours_cta": "Book a Tour",
     "faq_title": "Frequently Asked Questions",
     "faqs": [
@@ -201,7 +200,6 @@
     "poi_agadir": "Agadir Ruins",
     "poi_medina": "Medina & Souks",
     "poi_artisan": "Artisan Workshops",
-    "email_subject": "Custom Itinerary Request",
-    "email_body": "Hello Hamza!\n\nI would like to request a custom itinerary.\n\nDetails:\n- Name: {name}\n- Email: {email}\n- Phone: {phone}\n- Date: {date}\n- Guests: {guests}\n- Places: {places}\n\nAdditional Notes:\n{message}"
+    "whatsapp_message": "Hello Hamza!\n\nI would like to request a custom itinerary.\n\nDetails:\n- Name: {name}\n- Email: {email}\n- Phone: {phone}\n- Date: {date}\n- Guests: {guests}\n- Places: {places}\n\nAdditional Notes:\n{message}"
   }
 }

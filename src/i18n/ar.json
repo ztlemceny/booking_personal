@@ -63,8 +63,7 @@
     "booking_phone": "رقم الهاتف",
     "booking_date_label": "اختر التاريخ",
     "booking_guests_label": "عدد الأشخاص",
-    "booking_email_subject": "طلب حجز: {title}",
-    "booking_email_body": "مرحباً حمزة!\n\nأود حجز جولة {title}.\n\nالتفاصيل:\n- الاسم: {name}\n- البريد الإلكتروني: {email}\n- رقم الهاتف: {phone}\n- التاريخ: {date}\n- عدد الأشخاص: {guests}\n- السعر الإجمالي: {price}\n\nهل هي متوفرة؟",
+    "booking_whatsapp_message": "مرحباً حمزة!\n\nأود حجز جولة {title}.\n\nالتفاصيل:\n- الاسم: {name}\n- البريد الإلكتروني: {email}\n- رقم الهاتف: {phone}\n- التاريخ: {date}\n- عدد الأشخاص: {guests}\n- السعر الإجمالي: {price}\n\nهل هي متوفرة؟",
     "all_tours_cta": "احجز جولة",
     "faq_title": "الأسئلة الشائعة",
     "faqs": [
@@ -202,7 +201,6 @@
     "poi_agadir": "أطلال أكادير",
     "poi_medina": "المدينة والأسواق",
     "poi_artisan": "ورشات الحرفيين",
-    "email_subject": "طلب مسار مخصص",
-    "email_body": "مرحباً حمزة!\n\nأود طلب مسار مخصص للجولة.\n\nالتفاصيل:\n- الاسم: {name}\n- البريد الإلكتروني: {email}\n- رقم الهاتف: {phone}\n- التاريخ: {date}\n- عدد الأشخاص: {guests}\n- الأماكن: {places}\n\nملاحظات إضافية:\n{message}"
+    "whatsapp_message": "مرحباً حمزة!\n\nأود طلب مسار مخصص للجولة.\n\nالتفاصيل:\n- الاسم: {name}\n- البريد الإلكتروني: {email}\n- رقم الهاتف: {phone}\n- التاريخ: {date}\n- عدد الأشخاص: {guests}\n- الأماكن: {places}\n\nملاحظات إضافية:\n{message}"
   }
 }

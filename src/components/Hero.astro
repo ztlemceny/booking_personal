@@ -43,8 +43,8 @@ const t = useTranslations(lang);
       <a href={`${import.meta.env.BASE_URL}/${lang}/tours`.replace(/\/+/g, '/')} class="btn-primary text-base px-8 py-4">
         {t.hero.cta_reserve}
       </a>
-      <a href="#tours" class="btn-outline text-base px-8 py-4">
-        {t.hero.cta_discover}
+      <a href={`${import.meta.env.BASE_URL}/${lang}/custom-itinerary`.replace(/\/+/g, '/')} class="btn-outline text-base px-8 py-4">
+        {t.nav.custom_itinerary}
       </a>
     </div>
   </div>

@@ -59,12 +59,9 @@
     "reserve_button": "Réserver cette visite",
     "languages_label": "Disponible en",
     "whatsapp_message_simple": "Bonjour Hamza ! Je suis intéressé(e) par la visite {title}. Pouvez-vous me donner plus d'informations ?",
-    "booking_name": "Nom complet",
-    "booking_email_label": "Adresse Email",
-    "booking_phone": "Numéro de téléphone",
     "booking_date_label": "Sélectionner la date",
     "booking_guests_label": "Nombre de participants",
-    "booking_whatsapp_message": "Bonjour Hamza !\n\nJe souhaite réserver la visite {title}.\n\nDétails :\n- Nom : {name}\n- Email : {email}\n- Téléphone : {phone}\n- Date : {date}\n- Participants : {guests}\n- Prix total : {price}\n\nEst-elle disponible ?",
+    "booking_whatsapp_message": "Bonjour Hamza !\n\nJe souhaite réserver la visite {title}.\n\nDétails :\n- Date : {date}\n- Participants : {guests}\n- Prix total : {price}\n\nEst-elle disponible ?",
     "all_tours_cta": "Réserver une visite",
     "faq_title": "Questions Fréquentes",
     "faqs": [
@@ -182,9 +179,6 @@
   "custom_itinerary": {
     "page_title": "Itinéraire Sur Mesure",
     "page_subtitle": "Concevez votre propre voyage. Choisissez les lieux qui vous inspirent, et créons ensemble une expérience unique.",
-    "form_name": "Nom complet",
-    "form_email": "Adresse Email",
-    "form_phone": "Numéro de téléphone",
     "form_places": "Lieux à visiter",
     "form_message": "Demandes spéciales / Intérêts",
     "form_submit": "Envoyer ma demande",
@@ -202,6 +196,6 @@
     "poi_agadir": "Ruines d'Agadir",
     "poi_medina": "Médina & Souks",
     "poi_artisan": "Ateliers d'artisans",
-    "whatsapp_message": "Bonjour Hamza !\n\nJe souhaite demander un itinéraire sur mesure.\n\nDétails :\n- Nom : {name}\n- Email : {email}\n- Téléphone : {phone}\n- Date : {date}\n- Participants : {guests}\n- Lieux : {places}\n\nNotes additionnelles :\n{message}"
+    "whatsapp_message": "Bonjour Hamza !\n\nJe souhaite demander un itinéraire sur mesure.\n\nDétails :\n- Date : {date}\n- Participants : {guests}\n- Lieux : {places}\n\nNotes additionnelles :\n{message}"
   }
 }

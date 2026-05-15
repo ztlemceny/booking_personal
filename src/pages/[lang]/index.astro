@@ -6,6 +6,8 @@ import TourSlider from '../../components/TourSlider.astro';
 import TestimonialCard from '../../components/TestimonialCard.astro';
 import PressMention from '../../components/PressMention.astro';
 import InstagramFeed from '../../components/InstagramFeed.astro';
+import HotelPartnersSection from '../../components/HotelPartnersSection.astro';
+import OtaListingBanner from '../../components/OtaListingBanner.astro';
 import CtaBanner from '../../components/CtaBanner.astro';
 import { getCollection } from 'astro:content';
 import { useTranslations, LANGS, type Lang } from '../../utils/i18n';
@@ -84,6 +86,12 @@ const featuredTestimonials = testimonialData.filter(t => t.featured);
 
   <!-- Instagram Feed -->
   <InstagramFeed lang={lang} />
+
+  <!-- Hotel Partners Section (compact 3-card preview) -->
+  <HotelPartnersSection lang={lang} compact={true} />
+
+  <!-- OTA Listing Banner -->
+  <OtaListingBanner lang={lang} />
 
   <!-- CTA Banner -->
   <CtaBanner lang={lang} />

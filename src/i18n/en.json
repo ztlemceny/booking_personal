@@ -8,6 +8,7 @@
     "testimonials": "Reviews",
     "contact": "Contact",
     "custom_itinerary": "Custom Tour",
+    "partners": "Where to Stay",
     "reserve": "Book Now"
   },
   "hero": {
@@ -196,5 +197,37 @@
     "poi_medina": "Medina & Souks",
     "poi_artisan": "Artisan Workshops",
     "whatsapp_message": "Hello Hamza!\n\nI would like to request a custom itinerary.\n\nDetails:\n- Date: {date}\n- Guests: {guests}\n- Places: {places}\n\nAdditional Notes:\n{message}"
+  },
+  "partners": {
+    "page_title": "Where to Stay in Tlemcen",
+    "page_subtitle": "Handpicked accommodations near the best historical sites — book through our partners and support local tourism.",
+    "section_title": "Partner Hotels",
+    "section_subtitle": "Comfortable stays steps away from Tlemcen's wonders.",
+    "book_button": "View on Booking.com",
+    "from_label": "From",
+    "per_night": "/ night",
+    "affiliate_note": "* Links are affiliate links. Booking through them supports this website at no extra cost to you."
+  },
+  "addons": {
+    "section_title": "Enhance Your Tour",
+    "section_subtitle": "Add special experiences to make your day unforgettable.",
+    "photo_label": "Professional Photo Session",
+    "photo_desc": "High-res edited photos delivered within 48h",
+    "transport_label": "VIP Private Transport",
+    "transport_desc": "Comfortable A/C vehicle, door-to-door",
+    "meal_label": "Traditional Restaurant Reservation",
+    "meal_desc": "Authentic Tlemcen cuisine at a local favourite",
+    "souvenir_label": "Artisan Souvenir Package",
+    "souvenir_desc": "Curated local crafts from Tlemcen's artisans",
+    "selected_label": "Selected add-ons",
+    "total_extra": "Extra",
+    "whatsapp_addon_line": "Add-ons: {addons} (+{extra})"
+  },
+  "ota_banner": {
+    "title": "Also Book On",
+    "subtitle": "Find us on the world's leading travel platforms.",
+    "gyg_label": "GetYourGuide",
+    "viator_label": "Viator / Tripadvisor",
+    "cta": "See Listing →"
   }
 }

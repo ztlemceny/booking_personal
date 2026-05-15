@@ -8,6 +8,7 @@
     "testimonials": "Avis",
     "contact": "Contact",
     "custom_itinerary": "Sur mesure",
+    "partners": "Où dormir",
     "reserve": "Réserver maintenant"
   },
   "hero": {
@@ -197,5 +198,37 @@
     "poi_medina": "Médina & Souks",
     "poi_artisan": "Ateliers d'artisans",
     "whatsapp_message": "Bonjour Hamza !\n\nJe souhaite demander un itinéraire sur mesure.\n\nDétails :\n- Date : {date}\n- Participants : {guests}\n- Lieux : {places}\n\nNotes additionnelles :\n{message}"
+  },
+  "partners": {
+    "page_title": "Où dormir à Tlemcen",
+    "page_subtitle": "Des hébergements sélectionnés à deux pas des sites historiques — réservez via nos partenaires et soutenez le tourisme local.",
+    "section_title": "Hôtels partenaires",
+    "section_subtitle": "Des séjours confortables à quelques pas des merveilles de Tlemcen.",
+    "book_button": "Voir sur Booking.com",
+    "from_label": "À partir de",
+    "per_night": "/ nuit",
+    "affiliate_note": "* Les liens sont des liens affiliés. Réserver via ceux-ci soutient ce site sans frais supplémentaires pour vous."
+  },
+  "addons": {
+    "section_title": "Enrichissez votre visite",
+    "section_subtitle": "Ajoutez des expériences uniques pour rendre votre journée inoubliable.",
+    "photo_label": "Séance photo professionnelle",
+    "photo_desc": "Photos haute résolution retouchées livrées sous 48h",
+    "transport_label": "Transport privé VIP",
+    "transport_desc": "Véhicule climatisé confortable, porte-à-porte",
+    "meal_label": "Réservation restaurant traditionnel",
+    "meal_desc": "Cuisine authentique tlemcénienne dans un favori local",
+    "souvenir_label": "Pack souvenirs artisanaux",
+    "souvenir_desc": "Artisanat local sélectionné des artisans de Tlemcen",
+    "selected_label": "Extras sélectionnés",
+    "total_extra": "Supplément",
+    "whatsapp_addon_line": "Extras : {addons} (+{extra})"
+  },
+  "ota_banner": {
+    "title": "Disponible aussi sur",
+    "subtitle": "Retrouvez-nous sur les principales plateformes de voyage mondiales.",
+    "gyg_label": "GetYourGuide",
+    "viator_label": "Viator / Tripadvisor",
+    "cta": "Voir l'annonce →"
   }
 }

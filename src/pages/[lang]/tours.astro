@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import TourCard from '../../components/TourCard.astro';
+import TourAddons from '../../components/TourAddons.astro';
 import CtaBanner from '../../components/CtaBanner.astro';
 import { getCollection } from 'astro:content';
 import { useTranslations, LANGS, type Lang } from '../../utils/i18n';
@@ -39,6 +40,9 @@ tours.sort((a, b) => a.data.order - b.data.order);
       </div>
     </div>
   </section>
+
+  <!-- Premium Add-ons Upsell -->
+  <TourAddons lang={lang} />
 
   <CtaBanner lang={lang} />
 

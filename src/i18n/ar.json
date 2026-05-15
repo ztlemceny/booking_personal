@@ -8,6 +8,7 @@
     "testimonials": "آراء الزوار",
     "contact": "تواصل معنا",
     "custom_itinerary": "جولة خاصة",
+    "partners": "أين تقيم",
     "reserve": "احجز الآن"
   },
   "hero": {
@@ -197,5 +198,37 @@
     "poi_medina": "المدينة والأسواق",
     "poi_artisan": "ورشات الحرفيين",
     "whatsapp_message": "مرحباً حمزة!\n\nأود طلب مسار مخصص للجولة.\n\nالتفاصيل:\n- التاريخ: {date}\n- عدد الأشخاص: {guests}\n- الأماكن: {places}\n\nملاحظات إضافية:\n{message}"
+  },
+  "partners": {
+    "page_title": "أين تقيم في تلمسان",
+    "page_subtitle": "أفضل الفنادق المختارة بعناية بالقرب من المواقع التاريخية — احجز عبر شركائنا وادعم السياحة المحلية.",
+    "section_title": "فنادق شريكة",
+    "section_subtitle": "إقامات مريحة على بُعد خطوات من روائع تلمسان.",
+    "book_button": "عرض على Booking.com",
+    "from_label": "ابتداءً من",
+    "per_night": "/ الليلة",
+    "affiliate_note": "* الروابط هي روابط تابعة. الحجز من خلالها يدعم هذا الموقع دون أي تكلفة إضافية عليك."
+  },
+  "addons": {
+    "section_title": "طوّر تجربتك",
+    "section_subtitle": "أضف تجارب مميزة لجعل يومك لا يُنسى.",
+    "photo_label": "جلسة تصوير احترافية",
+    "photo_desc": "صور بدقة عالية معدّلة تُسلَّم خلال 48 ساعة",
+    "transport_label": "نقل خاص VIP",
+    "transport_desc": "مركبة مكيّفة مريحة، من الباب إلى الباب",
+    "meal_label": "حجز مطعم تقليدي",
+    "meal_desc": "مطبخ تلمساني أصيل في مطعم محلي مفضّل",
+    "souvenir_label": "حزمة هدايا تذكارية",
+    "souvenir_desc": "حرف يدوية محلية منتقاة من حرفيي تلمسان",
+    "selected_label": "الإضافات المختارة",
+    "total_extra": "إضافي",
+    "whatsapp_addon_line": "الإضافات: {addons} (+{extra})"
+  },
+  "ota_banner": {
+    "title": "متاح أيضاً على",
+    "subtitle": "ابحث عنا على أبرز منصات السفر العالمية.",
+    "gyg_label": "GetYourGuide",
+    "viator_label": "Viator / Tripadvisor",
+    "cta": "عرض الإعلان →"
   }
 }

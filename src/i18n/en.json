@@ -228,6 +228,8 @@
     "subtitle": "Find us on the world's leading travel platforms.",
     "gyg_label": "GetYourGuide",
     "viator_label": "Viator / Tripadvisor",
-    "cta": "See Listing →"
+    "cta": "See Listing →",
+    "coming_soon": "Profile under process",
+    "coming_soon_note": "Our listing is currently being set up. Check back soon!"
   }
 }

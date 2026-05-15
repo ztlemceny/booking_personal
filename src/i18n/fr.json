@@ -229,6 +229,8 @@
     "subtitle": "Retrouvez-nous sur les principales plateformes de voyage mondiales.",
     "gyg_label": "GetYourGuide",
     "viator_label": "Viator / Tripadvisor",
-    "cta": "Voir l'annonce →"
+    "cta": "Voir l'annonce →",
+    "coming_soon": "Profil en cours de création",
+    "coming_soon_note": "Notre annonce est en cours de configuration. Revenez bientôt !"
   }
 }
